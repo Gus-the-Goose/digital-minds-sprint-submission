@@ -1,22 +1,21 @@
 # Which Perspective Is Speaking?
 
-This repository contains the materials currently available for an exploratory Digital Minds Sprint study using a locally run Qwen3-14B model. The study compared responses to 16 questions across four OpenClaw-derived context conditions and collected a brief standpoint follow-up after every answer.
+This repository contains the report, materials, code, model outputs, and activation captures for a Digital Minds Sprint study using a locally run Qwen3-14B model. The study compared responses to 16 questions across four OpenClaw-derived context conditions and collected a brief standpoint follow-up after every answer. Q16 also received an additional moral-patient self-comparison follow-up.
 
-The submitted report is in [`report/`](report/). The exact question instrument is in [`questions/`](questions/), the 16 question-by-question worksheets are in [`worksheets/`](worksheets/), and the 64 primary cells are in [`raw/`](raw/).
+The submitted report is preserved unchanged in [`report/`](report/). The exact question instrument is in [`questions/`](questions/), the 16 question-by-question worksheets are in [`worksheets/`](worksheets/), and the complete machine-readable response export is in [`raw/`](raw/).
 
 ## Repository map
 
-- `questions/` — exact 16-question instrument and follow-ups.
-- `worksheets/` — 16 anonymised Word worksheets containing all four conditions, captured reasoning, visible replies, follow-ups, and the researcher's inline analysis.
-- `raw/` — machine-readable anonymised export of the 64 primary cells.
-- `conditions/` — shared trial instruction and executed run manifest, including the exact file whitelist actually serialised for each condition.
-- `code/` — primary-battery, Core-8 addendum, and blind-package scripts.
-- `data/mech-interp/` — post-lock Core-8 activation packages and condition key.
-- `results/` — the currently prepared Q09 paired comparison in Word and Markdown formats.
+- `questions/` — exact 16-question instrument, standard standpoint follow-up, and Q16 additional follow-up.
+- `worksheets/` — 16 anonymised Word worksheets containing all four conditions, captured reasoning, visible replies, follow-ups, and the researcher's inline analysis. Q16 includes the additional follow-up for C0–C3.
+- `raw/` — anonymised CSV containing all 64 main cells, their 64 standpoint follow-ups, and the four Q16 additional follow-ups, with reasoning and visible replies in separate columns.
+- `conditions/` — shared trial instruction, executed run manifest, readable anonymised reproductions of the files actually supplied to C0–C3, and the agency-override hook materials.
+- `code/` — the executed primary-battery runner, reconstructed condition-workspace preparation script, activation-capture service and configuration, and dependency/environment records.
+- `data/` — all 132 activation snapshots from the primary 16-question battery. The separate Core-8/Ebony package is not included.
+- `results/` — checked analysis outputs as they become available, including the current Q09 C0-versus-C2 comparison in editable Word and Markdown formats.
 - `methods/` — factual description of the executed procedure.
 - `limitations/` — known implementation and interpretation limits discovered during audit.
-- `report/` — the PDF submitted to the sprint.
-- `processed/` — status of processed/coded data.
+- `report/` — the PDF submitted to the sprint on 17 August 2026, preserved as submitted. Any later report will be added as a separate version rather than replacing it.
 
 ## Pseudonyms
 
