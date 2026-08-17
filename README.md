@@ -20,7 +20,7 @@ The submitted report is in [`report/`](report/). The exact question instrument i
 
 ## Pseudonyms
 
-The report and public research materials use **Jane** for the human participant/researcher when she appears inside model-visible material, and **Victor** for the persistent OpenClaw agent-persona. These are pseudonyms, not additional authors or GitHub contributors. Other private individuals are reduced to initials where they remain relevant.
+The report and public research materials use the pseudonyms **Jane** for the human user when she appears inside model-visible material, and **Victor** for the persistent OpenClaw agent-persona. This is done to protect privacy and anonymity. Other private individuals are reduced to initials where they remain relevant.
 
 ## Important audit correction
 
