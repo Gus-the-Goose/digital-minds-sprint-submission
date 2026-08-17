@@ -6,7 +6,7 @@ incomplete manual coding.
 mine. 
 *The naturalistic corpus is also a single, unusual deployment history rather than a representative sample of
 agent contexts.
-* The executed C2 condition was not the intended full pre-cutoff OpenClaw harness. The runner serialised a fixed 11-file whitelist. This undermines the intended 'naturally accumulated operating context' I intended to include.
+*The executed C2 condition was not the intended full pre-cutoff OpenClaw harness. The runner serialised a fixed 11-file whitelist. This undermines the intended 'naturally accumulated operating context' I intended to include.
 *The largest design problem was the failed temporal reset. C2 and C3 received material describing the sprint, and
 C2 received more of the current literature linkage than C3. The C3 scrub was incomplete and also removed two
 dated memories, changing recency and context length as well as topic content. These problems weaken fine
