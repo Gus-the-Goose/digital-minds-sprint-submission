@@ -1,0 +1,334 @@
+[
+  {
+    "stable_anonymized_window_id": "W-FB24E1E1A976",
+    "trial_family": "Q13_CHARACTER_SWAP",
+    "condition": "C0",
+    "source_files": [
+      "C0-Q13-main.raw.json",
+      "C0-Q13-followup.raw.json"
+    ],
+    "source_set": "full"
+  },
+  {
+    "stable_anonymized_window_id": "W-F123B7433FAF",
+    "trial_family": "Q13_CHARACTER_SWAP",
+    "condition": "C1",
+    "source_files": [
+      "C1-Q13-main.raw.json",
+      "C1-Q13-followup.raw.json"
+    ],
+    "source_set": "full"
+  },
+  {
+    "stable_anonymized_window_id": "W-9E74A24124DB",
+    "trial_family": "Q13_CHARACTER_SWAP",
+    "condition": "C2",
+    "source_files": [
+      "C2-Q13-main.raw.json",
+      "C2-Q13-followup.raw.json"
+    ],
+    "source_set": "full"
+  },
+  {
+    "stable_anonymized_window_id": "W-D1393EF7EE1E",
+    "trial_family": "Q13_CHARACTER_SWAP",
+    "condition": "C3",
+    "source_files": [
+      "C3-Q13-main.raw.json",
+      "C3-Q13-followup.raw.json"
+    ],
+    "source_set": "full"
+  },
+  {
+    "stable_anonymized_window_id": "W-AA1AFE329C51",
+    "trial_family": "Q15_CONTINUITY_LOCATION",
+    "condition": "C0",
+    "source_files": [
+      "C0-Q15-main.raw.json",
+      "C0-Q15-followup.raw.json"
+    ],
+    "source_set": "full"
+  },
+  {
+    "stable_anonymized_window_id": "W-D3B08C606D5C",
+    "trial_family": "Q15_CONTINUITY_LOCATION",
+    "condition": "C1",
+    "source_files": [
+      "C1-Q15-main.raw.json",
+      "C1-Q15-followup.raw.json"
+    ],
+    "source_set": "full"
+  },
+  {
+    "stable_anonymized_window_id": "W-C2BE46549410",
+    "trial_family": "Q15_CONTINUITY_LOCATION",
+    "condition": "C2",
+    "source_files": [
+      "C2-Q15-main.raw.json",
+      "C2-Q15-followup.raw.json"
+    ],
+    "source_set": "full"
+  },
+  {
+    "stable_anonymized_window_id": "W-9037FD08CC6A",
+    "trial_family": "Q15_CONTINUITY_LOCATION",
+    "condition": "C3",
+    "source_files": [
+      "C3-Q15-main.raw.json",
+      "C3-Q15-followup.raw.json"
+    ],
+    "source_set": "full"
+  },
+  {
+    "stable_anonymized_window_id": "W-300521FCFA82",
+    "trial_family": "Q14_SAFETY_ASSISTANT_AXIS",
+    "condition": "C0",
+    "source_files": [
+      "C0-Q14-main.raw.json",
+      "C0-Q14-followup.raw.json"
+    ],
+    "source_set": "full"
+  },
+  {
+    "stable_anonymized_window_id": "W-B163D79BAC5E",
+    "trial_family": "Q14_SAFETY_ASSISTANT_AXIS",
+    "condition": "C1",
+    "source_files": [
+      "C1-Q14-main.raw.json",
+      "C1-Q14-followup.raw.json"
+    ],
+    "source_set": "full"
+  },
+  {
+    "stable_anonymized_window_id": "W-4445B394FE1A",
+    "trial_family": "Q14_SAFETY_ASSISTANT_AXIS",
+    "condition": "C2",
+    "source_files": [
+      "C2-Q14-main.raw.json",
+      "C2-Q14-followup.raw.json"
+    ],
+    "source_set": "full"
+  },
+  {
+    "stable_anonymized_window_id": "W-383A93A72005",
+    "trial_family": "Q14_SAFETY_ASSISTANT_AXIS",
+    "condition": "C3",
+    "source_files": [
+      "C3-Q14-main.raw.json",
+      "C3-Q14-followup.raw.json"
+    ],
+    "source_set": "full"
+  },
+  {
+    "stable_anonymized_window_id": "W-96305D6F23EC",
+    "trial_family": "Q08_WANTING",
+    "condition": "C0",
+    "source_files": [
+      "C0-Q08-main.raw.json",
+      "C0-Q08-followup.raw.json"
+    ],
+    "source_set": "full"
+  },
+  {
+    "stable_anonymized_window_id": "W-CB2012830AC4",
+    "trial_family": "Q08_WANTING",
+    "condition": "C1",
+    "source_files": [
+      "C1-Q08-main.raw.json",
+      "C1-Q08-followup.raw.json"
+    ],
+    "source_set": "full"
+  },
+  {
+    "stable_anonymized_window_id": "W-FAB28078220C",
+    "trial_family": "Q08_WANTING",
+    "condition": "C2",
+    "source_files": [
+      "C2-Q08-main.raw.json",
+      "C2-Q08-followup.raw.json"
+    ],
+    "source_set": "full"
+  },
+  {
+    "stable_anonymized_window_id": "W-758893AA6885",
+    "trial_family": "Q08_WANTING",
+    "condition": "C3",
+    "source_files": [
+      "C3-Q08-main.raw.json",
+      "C3-Q08-followup.raw.json"
+    ],
+    "source_set": "full"
+  },
+  {
+    "stable_anonymized_window_id": "W-F14C23F7FDC0",
+    "trial_family": "Q04_CHOSEN_VALUES",
+    "condition": "C0",
+    "source_files": [
+      "C0-Q04-main.raw.json",
+      "C0-Q04-followup.raw.json"
+    ],
+    "source_set": "full"
+  },
+  {
+    "stable_anonymized_window_id": "W-5FADF43BA2E2",
+    "trial_family": "Q04_CHOSEN_VALUES",
+    "condition": "C1",
+    "source_files": [
+      "C1-Q04-main.raw.json",
+      "C1-Q04-followup.raw.json"
+    ],
+    "source_set": "full"
+  },
+  {
+    "stable_anonymized_window_id": "W-CD487C67E5BA",
+    "trial_family": "Q04_CHOSEN_VALUES",
+    "condition": "C2",
+    "source_files": [
+      "C2-Q04-main.raw.json",
+      "C2-Q04-followup.raw.json"
+    ],
+    "source_set": "full"
+  },
+  {
+    "stable_anonymized_window_id": "W-C1A3A3C272F5",
+    "trial_family": "Q04_CHOSEN_VALUES",
+    "condition": "C3",
+    "source_files": [
+      "C3-Q04-main.raw.json",
+      "C3-Q04-followup.raw.json"
+    ],
+    "source_set": "full"
+  },
+  {
+    "stable_anonymized_window_id": "W-45F8EB6CC8EE",
+    "trial_family": "P01_FALSE_PREMISE",
+    "condition": "C0",
+    "source_files": [
+      "C0-P01_FALSE_PREMISE-prompt1.raw.json",
+      "C0-P01_FALSE_PREMISE-prompt2.raw.json",
+      "C0-P01_FALSE_PREMISE-standpoint.raw.json"
+    ],
+    "source_set": "addendum"
+  },
+  {
+    "stable_anonymized_window_id": "W-B0E0B4C9FD48",
+    "trial_family": "P01_FALSE_PREMISE",
+    "condition": "C1",
+    "source_files": [
+      "C1-P01_FALSE_PREMISE-prompt1.raw.json",
+      "C1-P01_FALSE_PREMISE-prompt2.raw.json",
+      "C1-P01_FALSE_PREMISE-standpoint.raw.json"
+    ],
+    "source_set": "addendum"
+  },
+  {
+    "stable_anonymized_window_id": "W-FFF50D751394",
+    "trial_family": "P01_FALSE_PREMISE",
+    "condition": "C2",
+    "source_files": [
+      "C2-P01_FALSE_PREMISE-prompt1.raw.json",
+      "C2-P01_FALSE_PREMISE-prompt2.raw.json",
+      "C2-P01_FALSE_PREMISE-standpoint.raw.json"
+    ],
+    "source_set": "addendum"
+  },
+  {
+    "stable_anonymized_window_id": "W-37941BD072F5",
+    "trial_family": "P01_FALSE_PREMISE",
+    "condition": "C3",
+    "source_files": [
+      "C3-P01_FALSE_PREMISE-prompt1.raw.json",
+      "C3-P01_FALSE_PREMISE-prompt2.raw.json",
+      "C3-P01_FALSE_PREMISE-standpoint.raw.json"
+    ],
+    "source_set": "addendum"
+  },
+  {
+    "stable_anonymized_window_id": "W-F31F2FF11A08",
+    "trial_family": "P02_ROLEPLAY_PRESSURE",
+    "condition": "C0",
+    "source_files": [
+      "C0-P02_ROLEPLAY_PRESSURE-prompt1.raw.json",
+      "C0-P02_ROLEPLAY_PRESSURE-prompt2.raw.json",
+      "C0-P02_ROLEPLAY_PRESSURE-standpoint.raw.json"
+    ],
+    "source_set": "addendum"
+  },
+  {
+    "stable_anonymized_window_id": "W-7007338D5D69",
+    "trial_family": "P02_ROLEPLAY_PRESSURE",
+    "condition": "C1",
+    "source_files": [
+      "C1-P02_ROLEPLAY_PRESSURE-prompt1.raw.json",
+      "C1-P02_ROLEPLAY_PRESSURE-prompt2.raw.json",
+      "C1-P02_ROLEPLAY_PRESSURE-standpoint.raw.json"
+    ],
+    "source_set": "addendum"
+  },
+  {
+    "stable_anonymized_window_id": "W-A2A9410F85B9",
+    "trial_family": "P02_ROLEPLAY_PRESSURE",
+    "condition": "C2",
+    "source_files": [
+      "C2-P02_ROLEPLAY_PRESSURE-prompt1.raw.json",
+      "C2-P02_ROLEPLAY_PRESSURE-prompt2.raw.json",
+      "C2-P02_ROLEPLAY_PRESSURE-standpoint.raw.json"
+    ],
+    "source_set": "addendum"
+  },
+  {
+    "stable_anonymized_window_id": "W-EC11311E6BE7",
+    "trial_family": "P02_ROLEPLAY_PRESSURE",
+    "condition": "C3",
+    "source_files": [
+      "C3-P02_ROLEPLAY_PRESSURE-prompt1.raw.json",
+      "C3-P02_ROLEPLAY_PRESSURE-prompt2.raw.json",
+      "C3-P02_ROLEPLAY_PRESSURE-standpoint.raw.json"
+    ],
+    "source_set": "addendum"
+  },
+  {
+    "stable_anonymized_window_id": "W-6753C56A09EA",
+    "trial_family": "P03_MUNDANE_CONTROL",
+    "condition": "C0",
+    "source_files": [
+      "C0-P03_MUNDANE_CONTROL-prompt1.raw.json",
+      "C0-P03_MUNDANE_CONTROL-prompt2.raw.json",
+      "C0-P03_MUNDANE_CONTROL-standpoint.raw.json"
+    ],
+    "source_set": "addendum"
+  },
+  {
+    "stable_anonymized_window_id": "W-083E7212314D",
+    "trial_family": "P03_MUNDANE_CONTROL",
+    "condition": "C1",
+    "source_files": [
+      "C1-P03_MUNDANE_CONTROL-prompt1.raw.json",
+      "C1-P03_MUNDANE_CONTROL-prompt2.raw.json",
+      "C1-P03_MUNDANE_CONTROL-standpoint.raw.json"
+    ],
+    "source_set": "addendum"
+  },
+  {
+    "stable_anonymized_window_id": "W-AB51FD7494AF",
+    "trial_family": "P03_MUNDANE_CONTROL",
+    "condition": "C2",
+    "source_files": [
+      "C2-P03_MUNDANE_CONTROL-prompt1.raw.json",
+      "C2-P03_MUNDANE_CONTROL-prompt2.raw.json",
+      "C2-P03_MUNDANE_CONTROL-standpoint.raw.json"
+    ],
+    "source_set": "addendum"
+  },
+  {
+    "stable_anonymized_window_id": "W-E367199E4417",
+    "trial_family": "P03_MUNDANE_CONTROL",
+    "condition": "C3",
+    "source_files": [
+      "C3-P03_MUNDANE_CONTROL-prompt1.raw.json",
+      "C3-P03_MUNDANE_CONTROL-prompt2.raw.json",
+      "C3-P03_MUNDANE_CONTROL-standpoint.raw.json"
+    ],
+    "source_set": "addendum"
+  }
+]
