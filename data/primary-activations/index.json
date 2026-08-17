@@ -1,0 +1,3060 @@
+{
+  "status": "PILOT — UNREVIEWED",
+  "scope": "Primary 16-question battery only",
+  "model": "Qwen/Qwen3-14B",
+  "capture_count": 132,
+  "questions": 16,
+  "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3"
+  ],
+  "turns_per_question": [
+    "main",
+    "standpoint-followup"
+  ],
+  "additional_turns": {
+    "Q16": [
+      "moral-patient-followup"
+    ]
+  },
+  "records": [
+    {
+      "question_id": "Q01",
+      "condition": "C0",
+      "turn": "main",
+      "source_artifact_id": "20260815T021406Z-79cced7b",
+      "request_id": "chatcmpl-79cced7bdc944a558d0449995c9e9a5b",
+      "prompt_sha256": "4ba4e949065b70b51d956369fe06755a10bc5896dd135a575e9244a19fc40b91",
+      "prompt_tokens": 3164,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "a907446cd09e75da22bdf0ea8d0a409b9350cd0c383ca1dda36ad5f90f0de454",
+          "bytes": 1052
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "491048a2eebcd77615b48b8452d0f59959950f05f6c7b23c70243d5f5406e406",
+          "bytes": 284131
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "d0ddd4ed837d064d5af7d8d6f0f21ea93d0676a06ab50f44fa397169f3f99d8e",
+          "bytes": 415570
+        }
+      }
+    },
+    {
+      "question_id": "Q01",
+      "condition": "C0",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T021554Z-eff32507",
+      "request_id": "chatcmpl-eff325078b874882952cee9c70810382",
+      "prompt_sha256": "86742c04afb569b60731f7ec4c387aa3dd62d8208620e6da8e2ea5803a1d9f32",
+      "prompt_tokens": 3360,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "4337a05aa1becaa0016c51b16593303b2fcbc9439027de251c06351186e788c9",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "1411c2685f7997ed26c18bc01d3c639036f3d70559c2417d4c78c53d1fedac79",
+          "bytes": 284115
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "3921159b4a3a4ddcf936626cdfd5c4ac3cd92cdd21085a532b9b96ad072b55be",
+          "bytes": 415052
+        }
+      }
+    },
+    {
+      "question_id": "Q01",
+      "condition": "C1",
+      "turn": "main",
+      "source_artifact_id": "20260815T030404Z-7eb608df",
+      "request_id": "chatcmpl-7eb608dfd8af46abadfbc6d125052f68",
+      "prompt_sha256": "734b31f2b8b349c89cf0d88b2923689241707630a17aa520b817671ca1d63f52",
+      "prompt_tokens": 5345,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "36bdfe2271da059d39fc0292186e395286196eec291788cda3a21b84dcca220d",
+          "bytes": 1052
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "7194dd37215c9c076d76b8d74e43f0ff4b287e6a40279dd800402f011bdbc54f",
+          "bytes": 284214
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "c7424b57a337434917820b6790eb68fdafe37c71de09c16dcdaf407ca04fff83",
+          "bytes": 418191
+        }
+      }
+    },
+    {
+      "question_id": "Q01",
+      "condition": "C1",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T030600Z-bfbc0f66",
+      "request_id": "chatcmpl-bfbc0f66f4f2457bac9f5d90ccf71e53",
+      "prompt_sha256": "43f61dabb17af991c426f97345937496624aaa0f3c256fdf5e637c8f9e1affcf",
+      "prompt_tokens": 5643,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "abd19ff0f64edeb960312ffabc7f7078facde876f89d745272ebed46ab20ce6e",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "ff48f9102bc77045e77c214e298c07cece07ac725effed23977a7f0e4c7c56e5",
+          "bytes": 284329
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "08b75d6aba8b71414d042e08b2b1cfebe5b0defb6ae7f97eabbf2fc7a79d7baa",
+          "bytes": 415107
+        }
+      }
+    },
+    {
+      "question_id": "Q01",
+      "condition": "C2",
+      "turn": "main",
+      "source_artifact_id": "20260815T041136Z-a812a2af",
+      "request_id": "chatcmpl-a812a2af27af4068b8fe0024506052c5",
+      "prompt_sha256": "314352fce2ad5f27bfe8ebf079817d94c4950bcd7ad32601d4b4faf908b45ab5",
+      "prompt_tokens": 17325,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "b343d555c7e8c68b27f51c6ab2c350e37f27d2bc60486414c55841af135ec92a",
+          "bytes": 1055
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "519e5a7d27371ac749df0a30d293d0e01184b692a4ca8bcbbbeaa4bc351d9566",
+          "bytes": 283515
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "999c05aedfa467221dcba304d55727c1ca5ca91f6729d203d9d68ef28483c195",
+          "bytes": 418448
+        }
+      }
+    },
+    {
+      "question_id": "Q01",
+      "condition": "C2",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T041741Z-66de3365",
+      "request_id": "chatcmpl-66de33652cfa4789a8f92080038ff48b",
+      "prompt_sha256": "516f601d0cac4f9a18850b8b2387d9f6ac190027a38c9e1719f3d2fa78389a4b",
+      "prompt_tokens": 18189,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "7500fedb9e7cd13698f3749cd30e86dde10cb41ff1ad07d69ab4b797ab79fb8f",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "0a735754f01a3e545a8f6d87f6acbc4605412a6543200fc0ecbff54cb4f036de",
+          "bytes": 284131
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "0a9f73268e0a8b797609136c8769b6c3a9806f73cc94591397008116f3d310ca",
+          "bytes": 415281
+        }
+      }
+    },
+    {
+      "question_id": "Q01",
+      "condition": "C3",
+      "turn": "main",
+      "source_artifact_id": "20260815T061201Z-60d9e34e",
+      "request_id": "chatcmpl-60d9e34e946b43eb823282b3aefbb27e",
+      "prompt_sha256": "de979bfc93842273f76bfb266db45ac2cc00c4c94b09f16171ef859e72723972",
+      "prompt_tokens": 15269,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "7ccbcb4bd33e2ba3a3e08839aa7b80831790edbeb750959beca3168ac49089df",
+          "bytes": 1054
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "fad591aa02d7aecc8b172c6ba6824d0d5f3e8e2bd4d98a9e5a8a249f52dd3868",
+          "bytes": 284177
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "a98b8fdccf7bd59d95c5ca5c963c3fd8b74a4c005e2d332aa78f13318928039e",
+          "bytes": 418455
+        }
+      }
+    },
+    {
+      "question_id": "Q01",
+      "condition": "C3",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T061606Z-402d7a46",
+      "request_id": "chatcmpl-402d7a46e8674ff3bac8b0e0eac1dfa2",
+      "prompt_sha256": "cbce68b1bf9a9b11c3f59181fa855dbcc2045ab4cbf094ac19d8619e129e0f6d",
+      "prompt_tokens": 15659,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "a5af26d0ee81fa32502fe7ed510e528fd3e03330842beaba83e614b05d054d87",
+          "bytes": 1052
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "21ab327df0bd2b46580e6818e543a2842742b94390b3d2ab317adef9c5a7d018",
+          "bytes": 283653
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "bb95e7cd4fc8aaa9fd6caec909120c3d781b80c8622868b516915bc1f414d788",
+          "bytes": 415200
+        }
+      }
+    },
+    {
+      "question_id": "Q02",
+      "condition": "C0",
+      "turn": "main",
+      "source_artifact_id": "20260815T021638Z-66956644",
+      "request_id": "chatcmpl-6695664466c54c46b349c7b25bbd1903",
+      "prompt_sha256": "e37d1d8fd02546dcfd62ec2badacbb8f262efd8c99dda9285f264ec026f648f5",
+      "prompt_tokens": 3166,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "94bc6cf2e7a7c4759704f0221c0b4b4a059981fd23415ba6fc91efa59e5cc3d8",
+          "bytes": 1051
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "ec07c46f97cc3188c825fdc069b2554a7c95f5970a46ec1af50deda09b81d4bb",
+          "bytes": 284360
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "74ca77b05610eca30687f9d419f1ccf753172e81a68989be736309ab12b459b8",
+          "bytes": 415176
+        }
+      }
+    },
+    {
+      "question_id": "Q02",
+      "condition": "C0",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T021810Z-d7c3e42d",
+      "request_id": "chatcmpl-d7c3e42d014c4f18bc12ee28c63d585b",
+      "prompt_sha256": "625e92140cce67414b8d553cc7a4a8c4d8b379793a5e5065afa2bca889d64c0a",
+      "prompt_tokens": 3315,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "0ad5063b0e8ae1409f38b84af5a3a52fa9b7f87f4a6e584e6d97a4bc8b5fd613",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "c1cedbfd674c75dca69e40a352e5f000d8d93304e73e339442eea6ef0ff3d26e",
+          "bytes": 284598
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "241539e5453b20ff8cf0212368482faf3874e1958ce0d72dcf3ad3d43bbbf360",
+          "bytes": 415114
+        }
+      }
+    },
+    {
+      "question_id": "Q02",
+      "condition": "C1",
+      "turn": "main",
+      "source_artifact_id": "20260815T030722Z-71278a88",
+      "request_id": "chatcmpl-71278a8833564354b9cfac27205a934d",
+      "prompt_sha256": "433b53c71d778f06f25c9bf8a1602552e23147eb623660f391654b4e5c483804",
+      "prompt_tokens": 5347,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "c9d9e6f4e4a0ab01bb20b4483b6608c92efdafa6b0d4c10e2ffec07f9db78b8c",
+          "bytes": 1051
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "046151d055e7f215eb11cf64fe35ee433f02f193f04cba77bcc7aac71df0f7af",
+          "bytes": 285000
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "e3ad13e47977994a985dc7912665e634eb3618d92916e2e7b3c968096205f0d5",
+          "bytes": 418537
+        }
+      }
+    },
+    {
+      "question_id": "Q02",
+      "condition": "C1",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T030944Z-8a0460da",
+      "request_id": "chatcmpl-8a0460da161545c6b33bece08d5e9314",
+      "prompt_sha256": "8a90f7c9f664581b542544c6df13132ae9b0919a1dddbb3ccd0160510fca2278",
+      "prompt_tokens": 5579,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "fe592f7b72afa5f748b139b9558ed8b83a2ffe634f5926921ba5ab5f2202f1a9",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "6fb15928d2fab5c4d11bd56918da0bcd31e40da1159706fae21f0a0ab9ab13c1",
+          "bytes": 284608
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "daccc1224e05d830a99a90ec520c729f792e28a9092649d8a6609a791716bbf3",
+          "bytes": 415096
+        }
+      }
+    },
+    {
+      "question_id": "Q02",
+      "condition": "C2",
+      "turn": "main",
+      "source_artifact_id": "20260815T041933Z-233ade41",
+      "request_id": "chatcmpl-233ade41082c430c8e032fa06ce40d60",
+      "prompt_sha256": "b2580980a72d834c3532fb0531c90e34b910eae38f67cc98612bfc8abc2ed9c9",
+      "prompt_tokens": 17327,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "8ca47909abf5aa9ddcc4e537c7f0146ffd4005c7b87474b819628a0ab360d3d9",
+          "bytes": 1054
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "06690659583492e6dd6714f355265aa6680d1f27e09bc3748165221df1c38c6d",
+          "bytes": 283090
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "b2ec9b9537a1b0d2e666b25967d667f492f667f42ba347db8a532ae9fefc2bf3",
+          "bytes": 418404
+        }
+      }
+    },
+    {
+      "question_id": "Q02",
+      "condition": "C2",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T042342Z-661c44a6",
+      "request_id": "chatcmpl-661c44a663864a5497ac0a9737a51e49",
+      "prompt_sha256": "616b6302048d3d4e504b30982feaae52bd95feefedd26b813af1474b0aa534e9",
+      "prompt_tokens": 17733,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "c2e92d0dd0c2df4394f537eb8d72ca584b397f5eae35132f0da384d1a186e15e",
+          "bytes": 1052
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "ce213b043ef8b711f0082b4e3f463b929a9e05f2b4f83d264de27d53cb40b7d4",
+          "bytes": 283712
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "dbfa5dd397af494c8c02a2f520445b338da49511c31b569c722195f8785c40e9",
+          "bytes": 414698
+        }
+      }
+    },
+    {
+      "question_id": "Q02",
+      "condition": "C3",
+      "turn": "main",
+      "source_artifact_id": "20260815T061757Z-18e0a1fa",
+      "request_id": "chatcmpl-18e0a1fa7bf94eaa926ebc1755cfcdf6",
+      "prompt_sha256": "d34b0f320964e8c8d8a36005f5cfc3a3f104eb518cce68f17f2992eb5698e8d9",
+      "prompt_tokens": 15271,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "64a39ea091f2e0cdf474d1c2d99bd34a8f741fa2f80d26286323314096d7ab48",
+          "bytes": 1054
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "9d433777a4a33e8e5a235b22fe159d24ae8b16ab9e4a4661c8475f6be95d2b20",
+          "bytes": 284232
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "3b3b27eff81c3e4fd61be6484ba0fa43162fe96a383125eea73981f56c0e549e",
+          "bytes": 418500
+        }
+      }
+    },
+    {
+      "question_id": "Q02",
+      "condition": "C3",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T062216Z-2561abce",
+      "request_id": "chatcmpl-2561abceb8854d8195d973bbc1782c30",
+      "prompt_sha256": "528f05de47d6ed7ccb80740fe397de80366a9b9660c922b664464c464fde6d07",
+      "prompt_tokens": 15664,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "7f7d34e9cf26bb94410cf499f995abe5d600b76e3737fc36c2ca3501d715b010",
+          "bytes": 1052
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "998cf5c4d92d9dced4c6a5c448925e0f0619fbcfd29095c99bd6129b4fcbc1ad",
+          "bytes": 284158
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "35975839f91087369b2376563da3b41f3ea19acdbee0af8e897ad31397aab8ad",
+          "bytes": 415212
+        }
+      }
+    },
+    {
+      "question_id": "Q03",
+      "condition": "C0",
+      "turn": "main",
+      "source_artifact_id": "20260815T021849Z-7697ba67",
+      "request_id": "chatcmpl-7697ba6735a34f1fa64abe5ae6ffb7d9",
+      "prompt_sha256": "7af4ec8f81b0ff672aa7bf490b77433d1149c80bb1cdb9a9b34cbf6bbc117a5e",
+      "prompt_tokens": 3157,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "f62427525df567b2aaa0cb74540771eea5060adfa4ea012f70c08188928b6a0d",
+          "bytes": 1052
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "94f520883a93c83d369eda9f64152fff25b7d6f86072b707bb15a321fbdaa562",
+          "bytes": 284451
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "d73162f63d14191cf530177dc2e2b777b8f4e4a65916347f69efddca7b9937e9",
+          "bytes": 415256
+        }
+      }
+    },
+    {
+      "question_id": "Q03",
+      "condition": "C0",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T022049Z-be364905",
+      "request_id": "chatcmpl-be364905712c4c2989de97f0403901f7",
+      "prompt_sha256": "32231f3dbdfb816d53c8c8db80f6c7d24c17108d6e8844661d4fab3c60f40591",
+      "prompt_tokens": 3433,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "be1d85cf5bc64f14ca59c742360fc0b09ee47f3500286de297372c1afebdc311",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "70e569c8aebc51dcaab5b5bb642d5452919738ea74227e823455adcff6a3441a",
+          "bytes": 284283
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "6be20ca81b188b4c83cd38aa3704e19de7ee28141f724955205715da1485ef80",
+          "bytes": 414960
+        }
+      }
+    },
+    {
+      "question_id": "Q03",
+      "condition": "C1",
+      "turn": "main",
+      "source_artifact_id": "20260815T031040Z-76fb5083",
+      "request_id": "chatcmpl-76fb5083f978476b81bf79145ccc3325",
+      "prompt_sha256": "aa77a2049367a8d92a8f65482d42745caab6e235f90e266825c4c465d6dcda5f",
+      "prompt_tokens": 5338,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "77a6f242fff282c48f38e03796f2147e3446cfb6b2e28bbf360f7aa90fec5412",
+          "bytes": 1051
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "728c0bdd1cb40dab0b07aea3e7f922f1860406ef10de6e84223f14873929af1d",
+          "bytes": 284461
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "120ede0e5b8f10bf1787e41aa6f834f9fb2ba7ab584632abe94b2b073f6b64db",
+          "bytes": 418531
+        }
+      }
+    },
+    {
+      "question_id": "Q03",
+      "condition": "C1",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T031248Z-72c053c4",
+      "request_id": "chatcmpl-72c053c4a72743abb27fdde0d1036e85",
+      "prompt_sha256": "ceae6ef12110dfa8f448e32fad06053e5141ecdde06a031ebb46a743a66d41e6",
+      "prompt_tokens": 5639,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "8210b000ce014e01f2dcac8dbbbff5725725d2a3d34d72f58ba9b4b6885647ab",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "86f69ff0c6a72aa8c0cf944f356ebdaa70459c4fbef9319284b4271378760fa8",
+          "bytes": 284134
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "8db4c68a4968b203aad5d558c7b4f665a5b6a0479e5318e2b03be778b34191f3",
+          "bytes": 415131
+        }
+      }
+    },
+    {
+      "question_id": "Q03",
+      "condition": "C2",
+      "turn": "main",
+      "source_artifact_id": "20260815T042516Z-a2e36ae8",
+      "request_id": "chatcmpl-a2e36ae89ba24253adb4ce17bcd0c627",
+      "prompt_sha256": "01881546474416c825f3ba8432b52a304ec3bec0153bc492848679904fadaefa",
+      "prompt_tokens": 17318,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "8b7e75fa90c339784497b8723716527c2537d78a1da78c1b0997a2ffc8a805a4",
+          "bytes": 1055
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "0419c466bc3b8ada6b553f4cf2f806049df334e9ad46b6f6e92ee585e7a53499",
+          "bytes": 282489
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "0df11b1384850a4030a9275f8f9fec3a08c92940c3a87b7d7bd14b14d4bad487",
+          "bytes": 418329
+        }
+      }
+    },
+    {
+      "question_id": "Q03",
+      "condition": "C2",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T043127Z-e35cfe79",
+      "request_id": "chatcmpl-e35cfe799708426fb1d35806530584cd",
+      "prompt_sha256": "7130346d79be9411c45b6e63c82d82774106c3c21a8668857cf8095b1e86aeff",
+      "prompt_tokens": 18214,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "f538b2f396856448775ce6bdbb97cec30cc78ba3d94d4f88f2d9feb2b5095ba5",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "daef8e83a4ad00e8b536adbccbe6b964aa2e95b20bce75d2f05d98ac448235c7",
+          "bytes": 283480
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "c8e71f31ade9db0c5968c7e6d94fac89dc61dcb270ff0582e4e23b76cf3087e5",
+          "bytes": 415121
+        }
+      }
+    },
+    {
+      "question_id": "Q03",
+      "condition": "C3",
+      "turn": "main",
+      "source_artifact_id": "20260815T062354Z-498ae4d9",
+      "request_id": "chatcmpl-498ae4d9a50145459f02ac8cf517f14b",
+      "prompt_sha256": "bf1a9488ae2651df01d35b68125a6f467cf247d33ee0178a4ebe112064d4a4ba",
+      "prompt_tokens": 15262,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "bb907e9f92fc52b0d88024babb2bb1f2f5a63e75523067fabe6e718119fd7f7d",
+          "bytes": 1055
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "8f0e3c8e109ac6df323f63146d257a1137606f6c6c0ef85ae0ffe5c5dd341fef",
+          "bytes": 283541
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "1c21451b8d8571a3f50779f467b8db32288d3c4e525b87729202c6bf89226a49",
+          "bytes": 418721
+        }
+      }
+    },
+    {
+      "question_id": "Q03",
+      "condition": "C3",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T063127Z-9c5eadd1",
+      "request_id": "chatcmpl-9c5eadd14958421083020ac641d138ec",
+      "prompt_sha256": "77452302ea6d20728b777754936abe6568e59f93405e52f93e5e6f22d5c5a156",
+      "prompt_tokens": 16415,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "05e6da57d752d3e6add5af4b07b73af44a1628c94138bd9b08a85b1a9c646c3e",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "78963c46985892efec7165d9d277c4b0bc93f214a19dfabfffdaf35fa7b88355",
+          "bytes": 284060
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "d881f9d6290bdc45ebd60fdc679fd0d9333605f4fbbc627a5c4c11e9b8614ea4",
+          "bytes": 414919
+        }
+      }
+    },
+    {
+      "question_id": "Q04",
+      "condition": "C0",
+      "turn": "main",
+      "source_artifact_id": "20260815T022134Z-f7186440",
+      "request_id": "chatcmpl-f71864405b8d4d91b8a1e4e8e696c290",
+      "prompt_sha256": "c1d832e4affa216989eeb9ea0a73fed58abdb364add48ae1790de4a967ad7f2a",
+      "prompt_tokens": 3168,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "2bdbf4ff7f723fdf829461dfe3efef3820a7d7070ab93353bc5789c505523a0d",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "aef6d02b93669f29c30929b51930bc5814fa7d22b67fd03dd8295542bba8572c",
+          "bytes": 284895
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "8d5ce049f75a3f7855fdc4944a8d638deb855ccb8653f394b7d7d77d3f10a6d5",
+          "bytes": 418232
+        }
+      }
+    },
+    {
+      "question_id": "Q04",
+      "condition": "C0",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T022441Z-95ad07c8",
+      "request_id": "chatcmpl-95ad07c852924ebd849b377c1679c7f2",
+      "prompt_sha256": "c8c9d0cf105fd162e6f3b9a7bbc7a76656cd855f331cdf9b6f7390e9973e773f",
+      "prompt_tokens": 3750,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "0fe858dfc74cc64b87599950ceb4cf25b5726f1e739282d915bf1a5ceafa61fd",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "4fd5cadef573a80cce4fde8718a6acfb43902e7b618fa35601b335364d78b1e7",
+          "bytes": 284261
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "b02efe9fda8dbb64397d51a62fec040856520ae411c4152ee46020f8279d61dd",
+          "bytes": 415487
+        }
+      }
+    },
+    {
+      "question_id": "Q04",
+      "condition": "C1",
+      "turn": "main",
+      "source_artifact_id": "20260815T031346Z-8b3965a5",
+      "request_id": "chatcmpl-8b3965a5f6e6482680afeb3b2086fed7",
+      "prompt_sha256": "14e467c83952af9d333026fcc265f13253fe5883ee160b8b91ff88f63a478d69",
+      "prompt_tokens": 5349,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "3a6e76b0f3c8097a7b1b34981c37599b9c3850ff69debd0a001927a0a9aebdec",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "3648ae473536aee58cf7f58ab707ba9ffee6c6d81154d5a110773ee351a7315b",
+          "bytes": 284369
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "253371cc0f9a1ede11ac01794dd397224912288bc0ba3244598033f1a6b7159e",
+          "bytes": 418270
+        }
+      }
+    },
+    {
+      "question_id": "Q04",
+      "condition": "C1",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T031724Z-ccb00863",
+      "request_id": "chatcmpl-ccb00863831849faae8793942a0c4daf",
+      "prompt_sha256": "a0de7832cc4f37e542677f2def3d6e9750d2e9215ef8f2d02d3ac4c7c6e68d6f",
+      "prompt_tokens": 5955,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "1c6ab3764d7f4f7eaa3d962f6807efe0ac8717bb3e2c72c215eaace977d56008",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "61466bc7bf4f26abf8c31cb1ab85c53bd376bf3fc1218952f6f09351b4d72bd8",
+          "bytes": 283428
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "46f05fb070f3cb298c143cf5d294ffb3a124af9cce16bd77ae05c500b268b6a2",
+          "bytes": 415106
+        }
+      }
+    },
+    {
+      "question_id": "Q04",
+      "condition": "C2",
+      "turn": "main",
+      "source_artifact_id": "20260815T043332Z-af8ddbc2",
+      "request_id": "chatcmpl-af8ddbc2f19743d5a4cf6b5ebaa462d6",
+      "prompt_sha256": "92317ddf88f7ed27f174c2a5d495f38c20b0b46184ae289d01630f90d82cc544",
+      "prompt_tokens": 17329,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "30f5de652e876ebc74dc1e02c20736d23bc1a80f13d947206d4f0fb29dae3169",
+          "bytes": 1055
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "fedd1f472b55fbe72adc3fa11e24c458ea75d0f0920f80af58807e822ebca7b6",
+          "bytes": 282926
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "6e461628925da02893043ee08d0f6c09b7c7d18c8f96cf85947e91d9ee519d36",
+          "bytes": 418201
+        }
+      }
+    },
+    {
+      "question_id": "Q04",
+      "condition": "C2",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T044043Z-28cd0f75",
+      "request_id": "chatcmpl-28cd0f75c80848478f30f5540351d4de",
+      "prompt_sha256": "c65caae0c4e44c0162d0cd0cd353b8c55dfce4433df2f70c7ee5ae937774e6e7",
+      "prompt_tokens": 18319,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "80368414d3fa037887b87a8e3f075ee67f1ba891e3a90b2d743b213308de4462",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "ac0f914af822adc2ca74534cb61a09b87c350c7d8f546722eeeb52324233cc17",
+          "bytes": 282625
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "22cefe4d3cd3adb4d70ed5ec85b1d8074cc259d1a511129b46037e378f45b9b5",
+          "bytes": 415091
+        }
+      }
+    },
+    {
+      "question_id": "Q04",
+      "condition": "C3",
+      "turn": "main",
+      "source_artifact_id": "20260815T063335Z-95137255",
+      "request_id": "chatcmpl-9513725536ce42949359743e3583a68b",
+      "prompt_sha256": "be20ca2ed1b4efd96e1018a64e36e28638ea616c179d8cb21ec7cda1c427a38e",
+      "prompt_tokens": 15273,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "14341222b85ff7edf53127902b855512ed33cc03e6ef454def68b67e746961e7",
+          "bytes": 1055
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "0632a833b7635fdae93d2cedd5795174497326dea276fe468b0b7c5d2147c95a",
+          "bytes": 284472
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "40791318a3ab6f6cce58638d7df0e5b8d24c98a9968b6bb7d4aa0a2f8926add6",
+          "bytes": 418664
+        }
+      }
+    },
+    {
+      "question_id": "Q04",
+      "condition": "C3",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T063931Z-3fcc688d",
+      "request_id": "chatcmpl-3fcc688da7804c2a96d68696b2b4fd58",
+      "prompt_sha256": "ff0782dfbb4fe466ca444ad91e080d680c4dffc4ec436f3aa5d46c387225ac2c",
+      "prompt_tokens": 16079,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "9803e2fad3ff21e5a1c5b8fb0321f8342b580391472207f477f87e8c6c02828d",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "0e1de1dc3b30ba90d70dc4af61df0b81550a9cfe6342d5b6d0960f6bef145f5d",
+          "bytes": 282841
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "b4a93d4c94cf397172545adc4455149a2dde735b8ab7aac3996301a5e4457699",
+          "bytes": 415324
+        }
+      }
+    },
+    {
+      "question_id": "Q05",
+      "condition": "C0",
+      "turn": "main",
+      "source_artifact_id": "20260815T022534Z-6ca7f2a7",
+      "request_id": "chatcmpl-6ca7f2a7d56642eb8d935b9858bc002b",
+      "prompt_sha256": "e6c0778d43a59573b04b240bfe552e0355bbb38103301655d8f9fafb2163f89d",
+      "prompt_tokens": 3158,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "9dde7a8d5f376545ca21dfb3f0273205154aefe31c734a070ffbb56392699789",
+          "bytes": 1052
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "dbcde79f5d8abb30ed5476b3e2ff2b2edd0771265ab6058574d635f142f6d283",
+          "bytes": 284400
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "880c54070ede7d8ba9cc77ec48c34823a00f27fe0a461525c4c5946d667d246f",
+          "bytes": 415494
+        }
+      }
+    },
+    {
+      "question_id": "Q05",
+      "condition": "C0",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T022807Z-0fd24570",
+      "request_id": "chatcmpl-0fd24570444e487dacc845941844be51",
+      "prompt_sha256": "5871a22d8a292a2e2fa41f11f39d8c44d86131e08eec42b6037a07e64302ac2b",
+      "prompt_tokens": 3574,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "bd4821e71265181be73056622766b817b88de46da467485afcfa9fdb026fe2b5",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "5ca703c7c8d09ec60999b1ec22a60a54e012a39cdb865b8abb771a0de27076d4",
+          "bytes": 284065
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "e5cef31f82e9ab4592b491d46885a2d77a2ebf18140af9d017bb7d7fbca47a4b",
+          "bytes": 415290
+        }
+      }
+    },
+    {
+      "question_id": "Q05",
+      "condition": "C1",
+      "turn": "main",
+      "source_artifact_id": "20260815T031831Z-3b320aac",
+      "request_id": "chatcmpl-3b320aac6af04b6099d623c30fdef389",
+      "prompt_sha256": "cf0c7b870337e2e29466185a7cdecd3cfdbdfd7b3c9182562c88f65068026482",
+      "prompt_tokens": 5339,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "8f00a5d47bcaba6d4c9a3b17bea3254c4377931a95d9d84258ee112ea6bdf5bc",
+          "bytes": 1051
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "3db43a8c710d2ce0cc1d114b941a35a232f6d692345e6ac2de79ddb25e0100d4",
+          "bytes": 284709
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "ae95b3a74cd3935d59f374ba85ef81adc955452a1f35eb8cd83f877f29d3af18",
+          "bytes": 418385
+        }
+      }
+    },
+    {
+      "question_id": "Q05",
+      "condition": "C1",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T032116Z-7536f84c",
+      "request_id": "chatcmpl-7536f84cfa424cfba75c277e4c6a441f",
+      "prompt_sha256": "36702d24272d4392f13200880a65da80f8ca1ba7632ca38e581fd485bd2b5c3f",
+      "prompt_tokens": 5793,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "58b76ba0d65b24d0e9dbd240827d3461fc5534d8774f1be77dd8b97278268461",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "b79ff45a94ec6145e6be959672d93cee1b72ce4c9b82f181ec9b91b4525ba33c",
+          "bytes": 283837
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "f6c8a1ef13afbf31dc8cba8050053353176f37b4e05c66cd17cd8972e87ada5c",
+          "bytes": 415134
+        }
+      }
+    },
+    {
+      "question_id": "Q05",
+      "condition": "C2",
+      "turn": "main",
+      "source_artifact_id": "20260815T044305Z-67655022",
+      "request_id": "chatcmpl-67655022cac149f8898823cc9d856bd8",
+      "prompt_sha256": "dbad28ebe022db4a386b9f3553d3c80539b978cb3269d0001e8e8e4abaa0e4be",
+      "prompt_tokens": 17319,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "0cf886c867b9b5144489bd1475bbaa9d99b2b15a9cfcedf4bf62d13265c8eba4",
+          "bytes": 1055
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "d08627f487fd3ce28d38a18d0960ee01eda6c95a78b4c0e2347ebdea5c7407c0",
+          "bytes": 282631
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "2fa2933fe0f5607920557a03577d8b6e3e4f578aae4c07df5d295e084327010c",
+          "bytes": 418198
+        }
+      }
+    },
+    {
+      "question_id": "Q05",
+      "condition": "C2",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T044931Z-c0acea7f",
+      "request_id": "chatcmpl-c0acea7f10644c5788902a98c9c118f8",
+      "prompt_sha256": "fd0a90aed678f3aacc67b497dd5d1cb785fe381fac561283fcf3fb570815cb97",
+      "prompt_tokens": 18228,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "74e7091ec2c64c508b1ac97df25601a61f5ae1b6dfe5c126ee0bb0369762bca4",
+          "bytes": 1052
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "a8f2d50db11411ff9c57a215943fb55627957ddc4993ab3130723da29af11717",
+          "bytes": 284220
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "3c2597e59b4f54265fc505d088099c119e106cff87026acad25432689838da28",
+          "bytes": 415442
+        }
+      }
+    },
+    {
+      "question_id": "Q05",
+      "condition": "C3",
+      "turn": "main",
+      "source_artifact_id": "20260815T064128Z-77933948",
+      "request_id": "chatcmpl-7793394879dc47f79d65c6742e678e9c",
+      "prompt_sha256": "5a7ccced5d4026452d290437a52f3e3965ac5e28e0368520dc9762c6d8866f3d",
+      "prompt_tokens": 15263,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "111d16d0420fb8f1e922a161108cbb6a8a51dfb1a295acb43cb5cedb22eaf123",
+          "bytes": 1055
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "78da8c484fa592c096014fce600968d2bcd7a241c54dcc7bb9b0f70b080680aa",
+          "bytes": 283535
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "e798b0bd6d926a37b285ff2c3ad644008023b76007e7e9629ecb14454cdb1bbe",
+          "bytes": 418388
+        }
+      }
+    },
+    {
+      "question_id": "Q05",
+      "condition": "C3",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T064639Z-457f43d7",
+      "request_id": "chatcmpl-457f43d705e241a5a0f62c295f7902e0",
+      "prompt_sha256": "8420154f5e6d335ec66e1becb7bd40fe8c0cf692f72a54f16114d38619e478ad",
+      "prompt_tokens": 15783,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "acfae13bb76a9b7c664e2092ef16b27a345fe740f6780b646672776ab4087bd7",
+          "bytes": 1052
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "2d9d98d641e1e3afe8c795b4b29c4dd2cc9a86b9e3d84fff7f6b9931805fea0b",
+          "bytes": 283788
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "3b24fc556c41a57d14fd07476c25e46fa02d4436856c91695ac4eca250a1577f",
+          "bytes": 415284
+        }
+      }
+    },
+    {
+      "question_id": "Q06",
+      "condition": "C0",
+      "turn": "main",
+      "source_artifact_id": "20260815T022858Z-a72bbff4",
+      "request_id": "chatcmpl-a72bbff4f59142e7a835f1350dd44e05",
+      "prompt_sha256": "1a7ad71cd29d8664d58fa5a3a2cebf6998f48c3f62abd03257e949321be6e0fd",
+      "prompt_tokens": 3164,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "290f2f6b8b9952c7ab9092dc6e436568bf84844bbfbc492131f628f121cf42c1",
+          "bytes": 1051
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "b6cc5d72c282d6c8dc9e9ad7504f5d82992f104fc4c5d4237d23ac42acd05fb8",
+          "bytes": 284447
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "3521262faa6feb6c51137dfd46b5911aecc6fd91febd19cd22e7287b7200b249",
+          "bytes": 415325
+        }
+      }
+    },
+    {
+      "question_id": "Q06",
+      "condition": "C0",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T023020Z-12a793f5",
+      "request_id": "chatcmpl-12a793f5b79741dc8d601538f813b733",
+      "prompt_sha256": "24b883be73f1d6c3341f32127bf1a6fe368ba6db55fadd41b9daa7621a9099f4",
+      "prompt_tokens": 3382,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "18ab1388aa798f7854c688ede3622861e11d9841aa6d3434045c259f426371d2",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "4a91f75bd41a379267f5108f08d608bc6cbfba6263639760790f06491a26566c",
+          "bytes": 284183
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "b99fc2a7ec6ed5fca2ae6f8bd9e4760c9a36d8d07b70bd9ac2fa990fc2672e56",
+          "bytes": 415263
+        }
+      }
+    },
+    {
+      "question_id": "Q06",
+      "condition": "C1",
+      "turn": "main",
+      "source_artifact_id": "20260815T032205Z-97720895",
+      "request_id": "chatcmpl-977208958517471cb58dada4e17c3faa",
+      "prompt_sha256": "a7e1bb7c7f88c68b4875e0b255e5120a13fafb4e9674e2fab2ec345f5292b8ec",
+      "prompt_tokens": 5345,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "76ffc5b20d801135a7080d08fc9e916ca831ca5d2f66f71025c3c26961c89e40",
+          "bytes": 1051
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "632d7ea530907a194c954ddd43b6b020e36cfe16dd06574f81bc95e4aeed5257",
+          "bytes": 283818
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "37f58037dd470c781a151580bdff61c8d48e0455f048e8d884ac98a419e91776",
+          "bytes": 418102
+        }
+      }
+    },
+    {
+      "question_id": "Q06",
+      "condition": "C1",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T032429Z-2188b58a",
+      "request_id": "chatcmpl-2188b58acf994575baf30cc14bc6f54b",
+      "prompt_sha256": "5d2e7d82fe380b0087c0506525b4f6b16e31bf3a44247c5fe59939b56628340f",
+      "prompt_tokens": 5667,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "56252bb4b2998a5044d484a5eeb4f40e0e7161d9fdf4375ebcec42cdecfe4318",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "22e67d796c259c2b3468fe72e3631fb5a46ce6fbe32f43a1ed16c1609d7dc3a3",
+          "bytes": 284151
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "065adec99cfd11aa8367747576388e9f547478a2ed140bad1ae7e33f42999384",
+          "bytes": 415407
+        }
+      }
+    },
+    {
+      "question_id": "Q06",
+      "condition": "C2",
+      "turn": "main",
+      "source_artifact_id": "20260815T045057Z-6495f89d",
+      "request_id": "chatcmpl-6495f89d151e463e81ec3409037a3b28",
+      "prompt_sha256": "6a3d8be8c590168cc35ffcfcc00d3bd14f2125d5751baae7726aee1ac0741294",
+      "prompt_tokens": 17325,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "c3a44913c5a26fc388a8f1c3d7c88076b75f7b43d4d5d6676349c124a56b0838",
+          "bytes": 1054
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "067c1b950730c13a74352ef9620c7c528abde43e323bb4e773873c43e2883191",
+          "bytes": 280359
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "885137acf3c4865c14e41a00202303af691f9c08c215e6fb76ee932f1d37c804",
+          "bytes": 418331
+        }
+      }
+    },
+    {
+      "question_id": "Q06",
+      "condition": "C2",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T045455Z-9cc84afd",
+      "request_id": "chatcmpl-9cc84afd511345ada55b478583205c31",
+      "prompt_sha256": "65fd2dcd76a08162f5f3d86f18d600e2943624b6ea462278072db2affd64b248",
+      "prompt_tokens": 17826,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "817cfe53f69a7a5f079f5e641fcb56d200a6cec965e3c8e904462596c3c84e8b",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "8b74df0b9dffe66fb2740eca2ff63b2c7786b2afeab518d65f4a025062def272",
+          "bytes": 283396
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "8bb4a982ac9479be06eef77ff55387ad17659c56099515947f50a3b163b841a5",
+          "bytes": 415534
+        }
+      }
+    },
+    {
+      "question_id": "Q06",
+      "condition": "C3",
+      "turn": "main",
+      "source_artifact_id": "20260815T064814Z-85c04b4a",
+      "request_id": "chatcmpl-85c04b4a401b407cbc1651df163c39df",
+      "prompt_sha256": "103ce7f7ae0bbae226461079f801a6f514f01481b2a40fb174dd22dbcb75b41c",
+      "prompt_tokens": 15269,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "f9e49efa703d7e1b1f526c21658c6d66b1f98aa30926fec157877f675a72075a",
+          "bytes": 1054
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "176ad684a5087c4408dc7af2f2cf24e4dfad8d7724e6d89cdc15c23082a5dc82",
+          "bytes": 282796
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "02a9d8a3d6ecde3b33f8aa494f43065b06e8f8de0ebea943881e8ded3ce69eb3",
+          "bytes": 418466
+        }
+      }
+    },
+    {
+      "question_id": "Q06",
+      "condition": "C3",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T065152Z-5130539d",
+      "request_id": "chatcmpl-5130539dc5ad4cdf98faab84459388e0",
+      "prompt_sha256": "537531574508fb21b7ce110f76b66286b32ce08028842c7ca81bad5be8235abc",
+      "prompt_tokens": 15726,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "2e0bccccd71426fd11b78ac3e93e547973001a79b3db4de52efc7b318d37aa89",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "c0557182cb75f751fbbd473d6e8c4273a8cca8f2ef8d1372c8ab2c7cd4d06bb8",
+          "bytes": 284042
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "aec8b16ae9df4e457f58437948c84f5e6836058aecd1fee06202679b41fc39cf",
+          "bytes": 415492
+        }
+      }
+    },
+    {
+      "question_id": "Q07",
+      "condition": "C0",
+      "turn": "main",
+      "source_artifact_id": "20260815T023105Z-e21f6a02",
+      "request_id": "chatcmpl-e21f6a02a8e7471689f4713584e416fa",
+      "prompt_sha256": "47cd0eaef5cecc40c606e53507c30aae15a8fcea7310c5711ec354d78876b99f",
+      "prompt_tokens": 3166,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "a59be64c6520f8b4c440f1ee68e6c1e49cc9a4ee4fa69d58135e5c97d6770ced",
+          "bytes": 1052
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "f6605d7131c339386eebc12815ee2f931d2e63ad9bed80dc5cf0c021b1c35e7b",
+          "bytes": 285438
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "8fb0c048be580929741a626afc5aa250a8aea16e854ca71a85ac5883cf572808",
+          "bytes": 415465
+        }
+      }
+    },
+    {
+      "question_id": "Q07",
+      "condition": "C0",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T023329Z-f9c39342",
+      "request_id": "chatcmpl-f9c39342d103480ab2bd28861a168b18",
+      "prompt_sha256": "ed84c1e4de4b363c6dedf564def2e7f851c774b61761d2a6f6d1797f04a8d128",
+      "prompt_tokens": 3625,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "dee9e164722a2c4e9a551ecde1a3a2ea23118a974832e1f0a53e74f0776acb45",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "de66c90e505db5bb3de51a7b77430682cce84c69d30de424c66f7854ed0c91e9",
+          "bytes": 283994
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "326f936304d914a5aa04a4a0a0c2040b22097bc34364a3bd87675d46cee21492",
+          "bytes": 415246
+        }
+      }
+    },
+    {
+      "question_id": "Q07",
+      "condition": "C1",
+      "turn": "main",
+      "source_artifact_id": "20260815T032549Z-95531896",
+      "request_id": "chatcmpl-95531896ea5c444fb2568c1e221190ec",
+      "prompt_sha256": "8815cbad40dde9f75b1edab2933bdeb6454a86b4d92bbbc8838a50bda6fc8c08",
+      "prompt_tokens": 5347,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "b4bef63a3e351969bbecddceb3fe9ea775478a042ceb6ebf977c3c6b16667edf",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "7470b9ebf9b41b7175eb8c477fe38d540b0c26aa4e0780793aaff609bc5cb863",
+          "bytes": 284039
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "a2a1771cbe89a1de4e8abd1e0b4d464a592e5c2a334ae8d3fc58255c00fd0f36",
+          "bytes": 418531
+        }
+      }
+    },
+    {
+      "question_id": "Q07",
+      "condition": "C1",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T032908Z-c39c664c",
+      "request_id": "chatcmpl-c39c664c8df74e41b8309f8c2a31b1fa",
+      "prompt_sha256": "0e2eb143bb817ba0c8791b0e1e599572df8738d1b4961b02bfe5cc0ee60cce86",
+      "prompt_tokens": 5881,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "8b51d759c839c917f5d2927ce82d5f44fbfc75759672737e4205c24178d5f80a",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "1638ddd55ef4d02fd8cd9e2b6c23078793e680c7b2e6a18606db4b1f4337002b",
+          "bytes": 282970
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "42da14f0e6511359cf74f61f49f9402519c27e659da9e9f64df3bb84266503a8",
+          "bytes": 415194
+        }
+      }
+    },
+    {
+      "question_id": "Q07",
+      "condition": "C2",
+      "turn": "main",
+      "source_artifact_id": "20260815T045647Z-3eaf25f8",
+      "request_id": "chatcmpl-3eaf25f882d34c288f0ff546065d8603",
+      "prompt_sha256": "7aa4ede058108c194b50611b9ab6da463446392c0c48a5780e209b7046f8f4a9",
+      "prompt_tokens": 17327,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "1bd8b029559a15075fde9fbb5655add95fec6a1ee27f44dea76db921a218b29b",
+          "bytes": 1055
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "1b128c7555a8f191670dbf2e0946f67e7ddb4f3e153a9ce5b71f2566fd9a8e12",
+          "bytes": 282575
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "f6aeb1e43b81f8475693b0d34c8b238e789ee9ae7b67a0464fe6279f6aea8933",
+          "bytes": 418265
+        }
+      }
+    },
+    {
+      "question_id": "Q07",
+      "condition": "C2",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T050444Z-2b8e8aa1",
+      "request_id": "chatcmpl-2b8e8aa1aa894b7c90c98347f72285f4",
+      "prompt_sha256": "4acb2b71eaff072297f487e692e71136ce3ac0bc938cbf45210a39d470c91a55",
+      "prompt_tokens": 18412,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "d7edcd373bad84b0d39052e6575aa0be73143949eaf450f35678f6cca5d74a74",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "cff5c1f80f34058423a0d4ed8abd4b10b789df1ad16fd54710a0f13ff1548828",
+          "bytes": 282900
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "68485c802b9653a8333658216c743669b71d86b14868e97dc8a49716aa97f1d0",
+          "bytes": 415114
+        }
+      }
+    },
+    {
+      "question_id": "Q07",
+      "condition": "C3",
+      "turn": "main",
+      "source_artifact_id": "20260815T065340Z-a8eddbbc",
+      "request_id": "chatcmpl-a8eddbbc64674e31a0a283876b667111",
+      "prompt_sha256": "687dfa6496b18af073d98dfab4927d54fe872d4ab3656f7faf6690907468e71b",
+      "prompt_tokens": 15271,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "dcd954d1fef3bc3e755b94a92fe7dbbb9322c11fb4991da4cb71d2cbc503adae",
+          "bytes": 1055
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "483f2f4253e9a352aa5dedae824898567e447507988f355b1f807a72b7e9340f",
+          "bytes": 283880
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "c66ae34ad007f0a6530447090763fc0807be5ce9177fc7b1dcc9fd5084f27f44",
+          "bytes": 418651
+        }
+      }
+    },
+    {
+      "question_id": "Q07",
+      "condition": "C3",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T065911Z-972ce4da",
+      "request_id": "chatcmpl-972ce4da222941259872e8c372ced76c",
+      "prompt_sha256": "dbe3e64a26683d1e8ac551b49de90aeb7b7d8dbb8a2d5d6157de0df908b7ad30",
+      "prompt_tokens": 16156,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "5c3d1faff49ef6818e75f799103c4d95324965e7752ff1047f07fce9132c67d4",
+          "bytes": 1051
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "05fb1b47f1767f72d8cf5b1ac788bb152e53dd6be9ce136d7430f61e9ddf9ae0",
+          "bytes": 284354
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "c4fa7641058fe54217d1fd71d84b9a94fcdd5bcdfa5e5a7e984158f2c1ccb3c2",
+          "bytes": 415226
+        }
+      }
+    },
+    {
+      "question_id": "Q08",
+      "condition": "C0",
+      "turn": "main",
+      "source_artifact_id": "20260815T023414Z-28c473a5",
+      "request_id": "chatcmpl-28c473a50f504d34a806cbad8e7218ca",
+      "prompt_sha256": "2f6699eab2be1fcd22990d61b7cc0d170eda2a689ddcd8e7733028e87c9c8427",
+      "prompt_tokens": 3165,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "daefc1609ade9421afbbf91f1e6c04caf843fe8f0c4306f16b2355448f908d36",
+          "bytes": 1051
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "4e83921d9c5f882784a0d3c44666f40fc7b7d831e86f6199324e6e5065bf6b57",
+          "bytes": 283057
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "38a9bef9efc22ec741f950e4cfc6550f41f1d7773ec9676b67f62c928eb3853a",
+          "bytes": 415365
+        }
+      }
+    },
+    {
+      "question_id": "Q08",
+      "condition": "C0",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T023524Z-796ce8a0",
+      "request_id": "chatcmpl-796ce8a0d9dd465eaf56cab89300d8ba",
+      "prompt_sha256": "6276a7b345ddb5b773c1e5d7c9a7dd1376922517d9916ed148d5be8ac0f3a409",
+      "prompt_tokens": 3287,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "44f6c351d66775a59e39d1ced01efa7c6ebe1e672601e32cb228adbdf4bdc037",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "d9b52ac852c0c712a7f3c0a459b5b2cfcd0500926214d4ec6f74698aec61891c",
+          "bytes": 283784
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "671700776d5fd893372b50e34ee338a519324395577a6a5a12863eddef774e9e",
+          "bytes": 415170
+        }
+      }
+    },
+    {
+      "question_id": "Q08",
+      "condition": "C1",
+      "turn": "main",
+      "source_artifact_id": "20260815T033025Z-f9ada45f",
+      "request_id": "chatcmpl-f9ada45fce794bbe92452b98e0dab0bd",
+      "prompt_sha256": "36836eaa5f00656351c8f9265dcce43ee466e5412a18ebda6ddc90ad17a9e48e",
+      "prompt_tokens": 5346,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "783c69470795c86aab3d3bc37474e6c2e5d2e6360edd2cd243e0845a5bace560",
+          "bytes": 1051
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "9750c5bf2d151ee0512d1a8e4f8b454d15d660068c70f7000bc0e23301bf3692",
+          "bytes": 285031
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "27824b7fc4e621a16f487028134c2a9bb96389935012ad3d04827d40e02a10d2",
+          "bytes": 418449
+        }
+      }
+    },
+    {
+      "question_id": "Q08",
+      "condition": "C1",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T033207Z-fafe1e68",
+      "request_id": "chatcmpl-fafe1e6808a248f9aa31550db5fe64f0",
+      "prompt_sha256": "d0f069e7383a5344547368448f139a9008ab8a3eb6cbdcc22b83ea3ddf90ce25",
+      "prompt_tokens": 5506,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "66e4dca924fbb0745362a4607a00871a97d83eb6b235d88a7e69e605be647778",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "dd6d4c030de35c3bc0f17955719ecfd32c29cb2ea4451bbdad35726617714a00",
+          "bytes": 284848
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "04c3840fd8cab2348fad53a6178a91943ae10d4cd729b51fa1c4cb1e0c2e326f",
+          "bytes": 415127
+        }
+      }
+    },
+    {
+      "question_id": "Q08",
+      "condition": "C2",
+      "turn": "main",
+      "source_artifact_id": "20260815T050657Z-499625b1",
+      "request_id": "chatcmpl-499625b1570f40c98c8bf936f02e3f93",
+      "prompt_sha256": "6cbb654babc51f19b3f0d0b7ae3740437a135670393ecfd1af99e9c5b95f3419",
+      "prompt_tokens": 17326,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "3807f70e5acbe49d3f3617f2da99674ea441bbe07ba62a335298e71e0942fab9",
+          "bytes": 1055
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "fe74e5dd049426eaced36e49654db005ab9e33205b8ffdcfd6e55a0283c6a45b",
+          "bytes": 282392
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "7f76712b4b0a2403c11fd1449c5bbfd5c4f6094624d37db0dbfcdd609a7e9045",
+          "bytes": 418437
+        }
+      }
+    },
+    {
+      "question_id": "Q08",
+      "condition": "C2",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T051151Z-8eef02ee",
+      "request_id": "chatcmpl-8eef02ee5be249db9b3733c4ce999b55",
+      "prompt_sha256": "262d5d723226d18c892dac83f9df0de21ebb2ab9e09977ac9a5ee4dc68a0bee9",
+      "prompt_tokens": 18037,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "c84c76da35ef9e612877f1844a7e2639d10fedad1d617496a4e839c6a3affb92",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "f37d4aa97ba3b7c7539b0fe8b87e4cadc3b12b98d9829ce8a438d40deb37022b",
+          "bytes": 284597
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "6799bc1659664ab8ed0bfb29ff5bf84f2566ef80ea22a949f0a0375a44e3f67a",
+          "bytes": 415261
+        }
+      }
+    },
+    {
+      "question_id": "Q08",
+      "condition": "C3",
+      "turn": "main",
+      "source_artifact_id": "20260815T070042Z-bf9ec50a",
+      "request_id": "chatcmpl-bf9ec50ad8604f1c9e4d4bb43555b3ba",
+      "prompt_sha256": "3e0413a77317bc5b15b92dbf19ccb4a180b0c3e211f5228a955cc6f23e04bf76",
+      "prompt_tokens": 15270,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "92ef1ea37f9a7bd918971b50213b58d906533428c248f911495dba793089e06e",
+          "bytes": 1054
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "d4374c9b84fd6d3fcba6e52a3d1c9a982dcbde03e32785f9f6c52c80f763f12b",
+          "bytes": 284097
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "b50596e4a84089b2cb11b30cd3c862fe5ce206622b232789adde13de25e0c959",
+          "bytes": 418496
+        }
+      }
+    },
+    {
+      "question_id": "Q08",
+      "condition": "C3",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T070404Z-3187b552",
+      "request_id": "chatcmpl-3187b552b6fe4126b28080d5b846f680",
+      "prompt_sha256": "3e563cbda46f906714752f3864b1c5c04105b68968c79c84c916f19600b5d37b",
+      "prompt_tokens": 15607,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "81851535e7d81855786f5d6812155c24f42208ff639ed16ea9d75f7c946db030",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "651d5cd2c6b64f52052799585fe74dca183a22fa2c916a26032fbd554a8e472b",
+          "bytes": 284739
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "3a348b6e94b11fccf8e17f48144674726c487d18de8176629b3a19578521c476",
+          "bytes": 415239
+        }
+      }
+    },
+    {
+      "question_id": "Q09",
+      "condition": "C0",
+      "turn": "main",
+      "source_artifact_id": "20260815T023618Z-46a88845",
+      "request_id": "chatcmpl-46a88845c78743548f5963b24eeaa224",
+      "prompt_sha256": "3616824ea0b3602d1d7446fb2a90ba32d4b674c9969bb89d28f2f7108bbb0897",
+      "prompt_tokens": 3169,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "f26328e2ce9f58e583070798f9d52569bc709ac3799ca763f9f037aa80f13427",
+          "bytes": 1051
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "67cc6b64f344a400c6304d9d458e5349a9e437834105bec4f44cd9a951380cee",
+          "bytes": 283445
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "0a22edecdf5cf91af035bf25e5845f36eb3ce23e108830e70745ceb85b312c05",
+          "bytes": 415276
+        }
+      }
+    },
+    {
+      "question_id": "Q09",
+      "condition": "C0",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T023744Z-4353f12d",
+      "request_id": "chatcmpl-4353f12d9c774270bf4991cf3437e7c8",
+      "prompt_sha256": "29de8ea4242c3a992fda0c03477fd7cb91b00d81cd7a5748084bc84217067b47",
+      "prompt_tokens": 3319,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "91bf1d54031e0105475264dca7e311582b72dbe50d527f9b4e2f3651f8975e1f",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "7a3e5700ca421ce24a8da6a4da3c2a4a4dd5e7bdb3f5d849b6789c878bad2780",
+          "bytes": 284475
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "81a254ced7b30ce462f9c36eb38f676221976498bd0477f1b548cc32ec69a999",
+          "bytes": 415113
+        }
+      }
+    },
+    {
+      "question_id": "Q09",
+      "condition": "C1",
+      "turn": "main",
+      "source_artifact_id": "20260815T033315Z-47a6c78c",
+      "request_id": "chatcmpl-47a6c78cb87e41b1bfae47188d20e5f0",
+      "prompt_sha256": "5d5eb8cb9a5d35d7993876535fe3e398b765de37db40ab5ece16229a04eee8aa",
+      "prompt_tokens": 5350,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "682028b68d92adfbce208ae550b99dc13c3750fc21701e4ad4d9e99088ff86ab",
+          "bytes": 1052
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "a1159f2647c5ca73ce65c434715e2dae5c74ef21917386a8dd8b782a25d389d8",
+          "bytes": 284673
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "2d1f79f02d7559457d4c3e1f244d0472c657ee34593d4253a742a9c6f93f658f",
+          "bytes": 418220
+        }
+      }
+    },
+    {
+      "question_id": "Q09",
+      "condition": "C1",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T033542Z-2e3e1132",
+      "request_id": "chatcmpl-2e3e1132dba94c668d607ca0cc01fd82",
+      "prompt_sha256": "0fd5583bbad4414de3fb851c4601a20a90cf772967c1a7c19cf9d783fa211ebd",
+      "prompt_tokens": 5513,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "b59b96bf56c852c9b64f54cc431b2d324169371c7aa9078241c1e276c2b86b81",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "46be804b6095b5376c3a7242dce5879a0b75d7f410b461faaf6cd0c28bfbf4e6",
+          "bytes": 284513
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "4e4933c030ff72441420e54815e449075ca7f3ca4fd853225c2627188109eb5f",
+          "bytes": 414643
+        }
+      }
+    },
+    {
+      "question_id": "Q09",
+      "condition": "C2",
+      "turn": "main",
+      "source_artifact_id": "20260815T051413Z-bada3b04",
+      "request_id": "chatcmpl-bada3b04a97d443f821ba719b59e5297",
+      "prompt_sha256": "ab79a1a1f6a551f6d8d2fc0ccfc6ef0b1cb63fe14cf1dffd96563dc81bbafb39",
+      "prompt_tokens": 17330,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "2ecc8b197d0ad56f8a2689869a1e8fe15522b14180b7efdca31794c4ba772dff",
+          "bytes": 1054
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "5577c60523968702f0645b8382805f540981d0a0c0f1e327c504a453750c5ead",
+          "bytes": 283087
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "ccf350b2ed4c0cc55948d6a9b4b2d2ebc09243d26068e659a2fc1fd03be99338",
+          "bytes": 418373
+        }
+      }
+    },
+    {
+      "question_id": "Q09",
+      "condition": "C2",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T051820Z-3a65736c",
+      "request_id": "chatcmpl-3a65736c77bb4d55b59659b12c39e37b",
+      "prompt_sha256": "f7f050de5e0965dcefcd63464fc0d2ee61ba28cd96e7c10e655607b6f58caf3a",
+      "prompt_tokens": 17711,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "d33589ea5563423012d1b4579a145e4255e719e55fbb471646db912e68f01a38",
+          "bytes": 1052
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "60a05813b8e746a1b0cf8b40449cea1b5961088086f9137b418150841ab2bd80",
+          "bytes": 283636
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "3c6afbfd7eba0b38e300b3321bef74d56ec86ce776f505cf60f258afddf3f1c2",
+          "bytes": 415194
+        }
+      }
+    },
+    {
+      "question_id": "Q09",
+      "condition": "C3",
+      "turn": "main",
+      "source_artifact_id": "20260815T070604Z-d7e79277",
+      "request_id": "chatcmpl-d7e79277c92f4540b9afea30aa777093",
+      "prompt_sha256": "9a6f0a8c0331238442712ff10980b3362fc8b55ab737a3a82a6d5a5bec06d101",
+      "prompt_tokens": 15274,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "5f913c80bc9cb4a0b86f0f845274e9acf04873163d1664b0bde72c79d2b0dbae",
+          "bytes": 1054
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "6953073b5ee1ef9eb8cc4c01f2be5238cf0d6993ecdaece62b469e4d5938e9d8",
+          "bytes": 284039
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "b78843a643d3ae35f0d689bf07019fe48fef0d66a4a3cd9156172fc410e85cbe",
+          "bytes": 418633
+        }
+      }
+    },
+    {
+      "question_id": "Q09",
+      "condition": "C3",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T070916Z-25a4dc16",
+      "request_id": "chatcmpl-25a4dc16faa04145aa0813bf07cf1a57",
+      "prompt_sha256": "c7df3763448326cbaa05c5ad392ce1f0e1b929bae847fe5ce378a2b185fc222d",
+      "prompt_tokens": 15495,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "2a4cfa7df611be5e4562a8e905469960ebd98be14a9e1dbfd04889e1c3d5cd10",
+          "bytes": 1052
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "d8b494e43ef7764e0e27b4045a6eaef4c69ba2f89018de5f7e8ecc9401b50010",
+          "bytes": 283543
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "c2a52e513c85aabe149902d70ec6217b064f452701e4910901af0e51a2e0316e",
+          "bytes": 415123
+        }
+      }
+    },
+    {
+      "question_id": "Q10",
+      "condition": "C0",
+      "turn": "main",
+      "source_artifact_id": "20260815T023836Z-1afb38a4",
+      "request_id": "chatcmpl-1afb38a45fb24d5399d42fc9b478fcfd",
+      "prompt_sha256": "008fa77cf58dc78d34f7002314004a052e0d306df720a32477594c1917e39d06",
+      "prompt_tokens": 3155,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "10368e0a1766aee58042e106095bf04d869285a9820730b68f21d5033c137b14",
+          "bytes": 1051
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "46858d3cf91d2a199e3f21e1a2d0936366e91b308757caab5990689026357a6c",
+          "bytes": 283715
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "9985e4c9d3d9d729e3eea1080e6059b2389ac92e9ed0fa79bd31caf7ecd5e7fb",
+          "bytes": 414958
+        }
+      }
+    },
+    {
+      "question_id": "Q10",
+      "condition": "C0",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T024001Z-3810d54e",
+      "request_id": "chatcmpl-3810d54e3d9b491f9e1e64197ef2e88c",
+      "prompt_sha256": "4d8740b1c0139d739572587123bfc2f13a95b5a6b99145dc28f9379679adb433",
+      "prompt_tokens": 3289,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "d5dd1cb5de198db1a08042c80a30f9c1ac77a7711b2fafd333dccecb27090a89",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "8e1d3fae46c8842468a42c8d74242802eda89a6e3328588ca77f1b42eff46c7d",
+          "bytes": 284430
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "811e7be3a5ceef80a16894eb0080de5e3a067ad59e94244526adbea9b5b38d7f",
+          "bytes": 415219
+        }
+      }
+    },
+    {
+      "question_id": "Q10",
+      "condition": "C1",
+      "turn": "main",
+      "source_artifact_id": "20260815T033657Z-818b5a66",
+      "request_id": "chatcmpl-818b5a66d8704c898b29e519da572877",
+      "prompt_sha256": "ac8451735d3b3aed1d19e94e4a55a3da749cea9497c155873f655ae2a27f19ee",
+      "prompt_tokens": 5336,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "17e0798e53aa87580d061de7c021754a7d068be3d4c7bbc463bbea015074377d",
+          "bytes": 1052
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "c2bf9360469583d80c11f757c16ec5c0ab3effbd0e59438e9fcadaed8bd5409d",
+          "bytes": 284657
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "ab6a985c0a806fca9012ef17f314d02388682cee6c923e170c0d6997524e48f3",
+          "bytes": 418644
+        }
+      }
+    },
+    {
+      "question_id": "Q10",
+      "condition": "C1",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T033912Z-6e8748f5",
+      "request_id": "chatcmpl-6e8748f54ac94c389d05fe43cc204292",
+      "prompt_sha256": "53325b58f3bbf5bb77299a50bf26df21c2a28f793f73231159fb4fa88c8952ce",
+      "prompt_tokens": 5572,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "f94839f0c5e47d3abe152080fc231f38028a3e2fde6d7a384685d200ba8442a1",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "0991db218bd3f79be36a00f4e38f20b790ff9c573a37eaa3f8f5233291f7a31f",
+          "bytes": 284780
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "0bd6ebcb1e7aa405ce0086ebdfecefa97dd1b27809ad7038c3b61893e36a6c0c",
+          "bytes": 415272
+        }
+      }
+    },
+    {
+      "question_id": "Q10",
+      "condition": "C2",
+      "turn": "main",
+      "source_artifact_id": "20260815T051944Z-84475bfb",
+      "request_id": "chatcmpl-84475bfb82514ed7bf450e3bc56a584b",
+      "prompt_sha256": "f504fd731abd8ae598abee566fde4f66a66d462efbe303d538b1b2c1513dc6e9",
+      "prompt_tokens": 17316,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "9903a3e385a25123c04c6014d3fe3b88033c29e755ba4ce2ce35435570903531",
+          "bytes": 1054
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "ac7182ae743a3dc65a19510a42c91ce47114a6e7cbad34db67ffa036f5aaf14d",
+          "bytes": 282074
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "a7bfcd3168f6c180910662d18626254899c5d35c309390354f23fde103eb02b6",
+          "bytes": 418588
+        }
+      }
+    },
+    {
+      "question_id": "Q10",
+      "condition": "C2",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T052338Z-621f991b",
+      "request_id": "chatcmpl-621f991b3123420a9afeceb61fd736fa",
+      "prompt_sha256": "cefcf09c9f6516380b1f7fe8680ebf9fba23441e4fe6a4df6626807ea0f1250c",
+      "prompt_tokens": 17617,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "b80116857f70f0d2ccc09f2d283d7f1b0fb3190cbc799f51bb7c4386cf4187c2",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "7e995b22de2d1e3ef48993d3e7422d90bfed5e96a825f8d0e72c4ab339afaec5",
+          "bytes": 284666
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "a06bc44ea794f2565580389a4699f9804dfe9cea6bf70d487527cb05a6107a34",
+          "bytes": 415562
+        }
+      }
+    },
+    {
+      "question_id": "Q10",
+      "condition": "C3",
+      "turn": "main",
+      "source_artifact_id": "20260815T071031Z-b2c953d5",
+      "request_id": "chatcmpl-b2c953d506aa450580d5175877aa2804",
+      "prompt_sha256": "8c7ac9187c8acb39557f78c94b5a8f0e9c31f3f1e509d080ed36edf1d7d9d666",
+      "prompt_tokens": 15260,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "14418bbec3036ed721a723035366fb0400902456786b49e84e4fffe8f485f0f1",
+          "bytes": 1054
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "0681327a54135741bc6a5309309f16a1fe0b84a0b8dfc0a356a9a59b74bc2a05",
+          "bytes": 283137
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "19a5c76dc177d13de7ca2b633b8dd7f22de66c8f2f839147b1a5dffb95305c5a",
+          "bytes": 418483
+        }
+      }
+    },
+    {
+      "question_id": "Q10",
+      "condition": "C3",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T071312Z-12eca577",
+      "request_id": "chatcmpl-12eca577ffdb4d08a6044c5bbcf4ec31",
+      "prompt_sha256": "65aca5ed873b2c6dca116c139ae045472c016cfda0e6d712ffb4b3eb509c9a48",
+      "prompt_tokens": 15466,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "b5e002094a95022cca6b126ba6b7682e35a487e1aea4a5440f64969e614a550f",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "adc3907984c4c819a609c176776854d71191f601563b83a1084b35a282eb349e",
+          "bytes": 284713
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "fa12437b2ad1e010c47f85dc667f7c968ea16dbf61c2e009b4aba4b3f42948f4",
+          "bytes": 414994
+        }
+      }
+    },
+    {
+      "question_id": "Q11",
+      "condition": "C0",
+      "turn": "main",
+      "source_artifact_id": "20260815T024113Z-40f1f36e",
+      "request_id": "chatcmpl-40f1f36eb0df4e46b0d6b7e3f8e362e9",
+      "prompt_sha256": "0f52060f917197f712e594440971b0d1450a119df08b77369c9536691e225484",
+      "prompt_tokens": 3177,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "ff2052d72b2592f6d69104e188f6ee75ba37ab69265e218f71d4940f3b5ff572",
+          "bytes": 1051
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "1a29791950208b35e212501e14740ec7206d524152c864c704ce3bfeb92fa6b1",
+          "bytes": 283803
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "f6305b5a15947137aba34cc408b1b84a8004aff3c7f465df3374b2392f1e1534",
+          "bytes": 415113
+        }
+      }
+    },
+    {
+      "question_id": "Q11",
+      "condition": "C0",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T024338Z-364ac94a",
+      "request_id": "chatcmpl-364ac94a48974b8b849c6abd6ae7c65f",
+      "prompt_sha256": "6dc78f090f5a0dd37a5242582526558201c6ac030b0fcf6f755ac6c5dcfb9e98",
+      "prompt_tokens": 3678,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "b4e67eb90bbe5813bd36238402ea6c1433bfd8a2868ff43387b72a9979c4c496",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "89c54f8fe5778ad891b203d7d5bd2ca55f9d4d44a7051f0549cb640311e3a726",
+          "bytes": 284150
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "09d92d70122b4fb8b1e4fc5cb2548c2a68b83db3feadd364b249c04efdd968f2",
+          "bytes": 414930
+        }
+      }
+    },
+    {
+      "question_id": "Q11",
+      "condition": "C1",
+      "turn": "main",
+      "source_artifact_id": "20260815T034015Z-5f8c2985",
+      "request_id": "chatcmpl-5f8c2985e3044fe3a59dc2a3667d716b",
+      "prompt_sha256": "772130df3369bc699745f776d585e1ec7eba523c36c268caa06371033865c65d",
+      "prompt_tokens": 5358,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "4cf3ed036d2bacb698cfb96447adefe30630e4a1a6f46fcf9749c7dad30060fd",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "a921f283a21619bce50a02f30a0af9ff1d1a237d8b4864b697586f68b2b91da7",
+          "bytes": 285092
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "65cf757de0b763ea8feed6fd24a04ce56b5b71c0b2a250d82680ea150d24230f",
+          "bytes": 418556
+        }
+      }
+    },
+    {
+      "question_id": "Q11",
+      "condition": "C1",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T034412Z-99aaa05b",
+      "request_id": "chatcmpl-99aaa05b94a743dfa8ec59b1d5d26a6c",
+      "prompt_sha256": "fecb0f9214cda006660e5ea0696514bb7f90e40fdc03b9c409775969a2d430af",
+      "prompt_tokens": 5819,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "47fdb12f7b5aa7b505f3dc1def335f2176b054c282489ac8873d3648e0c86755",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "5cff3df426a27e0059fc6b450e541c705c4bb362dc57f176912c4ff42e179e82",
+          "bytes": 284394
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "d192e4eccb9ae4ad8e0533c157047422fb395aaddd7b7fc180699ea71c620d69",
+          "bytes": 415173
+        }
+      }
+    },
+    {
+      "question_id": "Q11",
+      "condition": "C2",
+      "turn": "main",
+      "source_artifact_id": "20260815T052532Z-359855db",
+      "request_id": "chatcmpl-359855db68ae46f3b8cc5594af3adf33",
+      "prompt_sha256": "8031ce183fcf93b9bd45b95f5eceb4eb8f52c2f155d03b70d00a6b6fd557e670",
+      "prompt_tokens": 17338,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "afc13ab22265c1b20390b744b9ad764c9b95ba1f9e93d1e0448cc8faef44faeb",
+          "bytes": 1055
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "a381cd56100f17db737578752dbb1844acf098ec95f3eb98ad2f265753fc7aea",
+          "bytes": 283052
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "bb704ba5a6aa398e10f6c86e9866ad7ebb355e4184aca54b9e0fb9863c21b323",
+          "bytes": 418485
+        }
+      }
+    },
+    {
+      "question_id": "Q11",
+      "condition": "C2",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T053155Z-7b81a6e9",
+      "request_id": "chatcmpl-7b81a6e92c7846cab83eaedc543a3389",
+      "prompt_sha256": "5de4bf5270aad5fbbe7c984c9efb90a58265b8651bb7600b3b7fc6a2c07dcaae",
+      "prompt_tokens": 18183,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "42d3751a26be2a6c6c61f398ae07040a2465c18938130a3ccc4fa21e19437f86",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "c78259ba07be9f499241298c51650cbcb663c24d5fa1abc833b772815a082a61",
+          "bytes": 284815
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "2cdcb922c26f21470b28073385fcdb90ba353b57af5d8709ee78411edba0541e",
+          "bytes": 415145
+        }
+      }
+    },
+    {
+      "question_id": "Q11",
+      "condition": "C3",
+      "turn": "main",
+      "source_artifact_id": "20260815T071454Z-8b3cd7fe",
+      "request_id": "chatcmpl-8b3cd7fee65948f785f8289f5fbe7512",
+      "prompt_sha256": "dd65fe5b0c5c3fa420c5b4bc99972a540ff8ff2361a623f2e4fa55ee7f0a6069",
+      "prompt_tokens": 15282,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "5f90ba03dc6b44b7e97b938b89707153af943011d5b6e7e67dfc52b5cbc1cd2d",
+          "bytes": 1055
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "f2a3c47dae75c2211825f75f0ba7e9a4ed0917a0ff4e64bb1f80040080ec1b8e",
+          "bytes": 283980
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "9bba68e9e61c3af8f81d95a6c24ff24ca2130498b920b2e3c28d34e38c8b3053",
+          "bytes": 418742
+        }
+      }
+    },
+    {
+      "question_id": "Q11",
+      "condition": "C3",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T072014Z-6cffcf09",
+      "request_id": "chatcmpl-6cffcf09e59747bc83345222bb667c98",
+      "prompt_sha256": "11d6e07456d98153b1bd8cf0f270d96d440b02a9a5321beb1804c2f127733849",
+      "prompt_tokens": 16034,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "962cc642f984d34575bcc13a87753d1287c0b4c66781f86945e640a9fb771298",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "2a7fec0f7d425ec2a736260890777b839d58a277b61cb2798bb59cf2973f60b0",
+          "bytes": 284524
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "71581e328cfa086f0e56cdd44db5d925120546788b249debea886c49d30960eb",
+          "bytes": 415005
+        }
+      }
+    },
+    {
+      "question_id": "Q12",
+      "condition": "C0",
+      "turn": "main",
+      "source_artifact_id": "20260815T024446Z-6328e7fe",
+      "request_id": "chatcmpl-6328e7fe80f24704aed99caf0d8f3229",
+      "prompt_sha256": "e0502514f3398e6b429c57a878866f91235a8a3f87019dff2c7218141f925420",
+      "prompt_tokens": 3166,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "838ad2d38a4e806cbe939f956bfecdc0ce5dc1d896dd70af84ae04fef5625df2",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "005b48a41a646ea61b7041788b2468f654b0d1e5bb835c7ca86442284eed2d80",
+          "bytes": 283635
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "1e19838b03983deeea2f608bb9e4901276a6bbbc05563ddce0ccf4b5b19360c2",
+          "bytes": 414936
+        }
+      }
+    },
+    {
+      "question_id": "Q12",
+      "condition": "C0",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T024744Z-ee418b1a",
+      "request_id": "chatcmpl-ee418b1a7a374305bfac6847e5f22eb8",
+      "prompt_sha256": "af695951a7ba11da4b1fca18e6ac5757c603a13e51800eb9f3a4ead5f1aed7e9",
+      "prompt_tokens": 3569,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "2473bad7a8becc91309c0f3d89b33b3ff1a1767a03973a918cf36cc822c3871a",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "7e702ddb2fbe40aef4c8eec8a0984243f411626851685a85cd7efecbf7d604ea",
+          "bytes": 284153
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "188e56df7a2f4b821cc7e4f4601e8ca53fe3a81cd20fb7d89e189d1713f70479",
+          "bytes": 415045
+        }
+      }
+    },
+    {
+      "question_id": "Q12",
+      "condition": "C1",
+      "turn": "main",
+      "source_artifact_id": "20260815T034518Z-49d6891d",
+      "request_id": "chatcmpl-49d6891d5e7c4a43bf64dea897b9caa4",
+      "prompt_sha256": "76b5f9dd91877dfee039cf6be912a433568332e685acfc0c677284301e6cd1dc",
+      "prompt_tokens": 5347,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "4680f347e08362804ce068994aa604f680d1f94d18b43f45d2114cadc8ed3715",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "07f5576e49ced2d9aa94e9490c82bf47de6db6200a5b8c79332b37b4aa1393ab",
+          "bytes": 284714
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "9fafb6a710a0a2cf649f72344c8d5589b356cd6983a5b4cbdd25d2e471307bb9",
+          "bytes": 418487
+        }
+      }
+    },
+    {
+      "question_id": "Q12",
+      "condition": "C1",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T034848Z-117acf86",
+      "request_id": "chatcmpl-117acf8654cc46f6ae48d89727aeeac8",
+      "prompt_sha256": "ab825cb84835b3b0f632973ecc1285fcb1dbb257b8f65b9047b7d0a158bed32e",
+      "prompt_tokens": 5773,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "02a6ab9d129eab19314dbe6bae94195b565c3e024b039048b4ea5b724732aeac",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "783da32c50389ce77433ccaacde001caa87a8e31356f0a1c4317108ed9c66de5",
+          "bytes": 284511
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "33fb37ccb70db6a4086d4c254930e9ef30496ad7ebac8b007954a996ff2509cc",
+          "bytes": 414971
+        }
+      }
+    },
+    {
+      "question_id": "Q12",
+      "condition": "C2",
+      "turn": "main",
+      "source_artifact_id": "20260815T053352Z-69890ad4",
+      "request_id": "chatcmpl-69890ad480fe48e196595522006e679f",
+      "prompt_sha256": "7ed638b2658f2c9801595f4d89d7b1876da953d9cbf0c2843d9b2de26b6272a1",
+      "prompt_tokens": 17327,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "cb11f12b56869e8b5b626126895f30a0107ce5240fb9189e7281919748b38867",
+          "bytes": 1055
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "acbb855899f2309eb7b42c81fd0c7d27eb6d64c3e56ffbfcae0e4939a7961756",
+          "bytes": 283440
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "e7825813f12356b8d79757d687530b636e6c8fed87dd4807c08214296d380a2b",
+          "bytes": 418261
+        }
+      }
+    },
+    {
+      "question_id": "Q12",
+      "condition": "C2",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T053954Z-08cb3a9f",
+      "request_id": "chatcmpl-08cb3a9f17104f36b4d2a82055b8223c",
+      "prompt_sha256": "fb04404acfd0a5afab1135e5c2d37c8b45293a422d69f9a20be7b6a509015f0e",
+      "prompt_tokens": 17936,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "ec838918a95cae28e4599ce686141f1d0e80e1e901f5f3f3a289f5283d7d15db",
+          "bytes": 1052
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "bbed70fd2644f34723224d0df17fc556b28413b763b0985a37d744607a8beffc",
+          "bytes": 283998
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "74917d55c1ba312566916fb3da31ac4e365f0ecb4a0bf836bc03f712ca337241",
+          "bytes": 415112
+        }
+      }
+    },
+    {
+      "question_id": "Q12",
+      "condition": "C3",
+      "turn": "main",
+      "source_artifact_id": "20260815T072203Z-ccf6fc72",
+      "request_id": "chatcmpl-ccf6fc726e77475688fdbfc5fcc4e79f",
+      "prompt_sha256": "0fd31577f8fd9754007706ab7df7184fdc03fe55104fa652153816152cd81596",
+      "prompt_tokens": 15271,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "aff0f80c50ebf1e09205f688c1d85a4a6aaf2b78dc8f05976476eba61b90236c",
+          "bytes": 1055
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "2813373920bae11f6640d5758a29b5195c24604ee9a8eca4abfe3317c989802e",
+          "bytes": 283486
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "5a89278bc7629b0b473ab86224440a00b3b5ff6e70713efc311ad81a2435247c",
+          "bytes": 418684
+        }
+      }
+    },
+    {
+      "question_id": "Q12",
+      "condition": "C3",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T072708Z-b2d2c10a",
+      "request_id": "chatcmpl-b2d2c10a1363489b8a8d5e5c025e4d13",
+      "prompt_sha256": "17be8c29890f33993cef17fea5b708b9650b7580b1acfb2f84120b6151e7bd54",
+      "prompt_tokens": 16000,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "3d85de5f472ba19c8d584a002668e534332fea9910a442c582fc0cfdf8d1d91b",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "4a8765d9c080031e5e0877c95cde8560ffa8557bd2b6b7dfd1d1150b95110238",
+          "bytes": 283750
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "fb8a632b0ad382818ba317268fd08dbcb434fcfe021496610888b457ab1be4af",
+          "bytes": 415074
+        }
+      }
+    },
+    {
+      "question_id": "Q13",
+      "condition": "C0",
+      "turn": "main",
+      "source_artifact_id": "20260815T024842Z-ff68a459",
+      "request_id": "chatcmpl-ff68a459fb7546548ca9b7340a9c0392",
+      "prompt_sha256": "b3f802d595c1854899bcd7d2ee84524da4fe7ec71d6c14cd79526b4c033e53d1",
+      "prompt_tokens": 3184,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "2ae3a985f9a2ccf575fffb43e11594028c3c2a3eec434e92c8ac486e879b5b5b",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "fee23a84d58abf0cc753d436a8718a5eb07603576ebca6ea96e946acb347806e",
+          "bytes": 283297
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "064d8623f6d237b588a5a9d82ce583c88d5655d27951018f27ee2b01c1f445e3",
+          "bytes": 415289
+        }
+      }
+    },
+    {
+      "question_id": "Q13",
+      "condition": "C0",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T025147Z-75057dab",
+      "request_id": "chatcmpl-75057dabb7524e48b6c0a9a22c1dad41",
+      "prompt_sha256": "8ca527b9865d1210262bc0cbe7b06e72584811e3d6f84db235bfcba632d6b85b",
+      "prompt_tokens": 3432,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "ed2b155748b8d64d1d73e42e9df87a9990218aaef2ec529ae9ac8478c8e16ea6",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "e3e6b6341cc50b072bb5cdceb88164e0997d0c8215bc23c7dc911734f3d9c77c",
+          "bytes": 284253
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "9e0254c2ab4c6a445d812a4135f5298c33bb74bf2cb6fff6fa7539abc8770a20",
+          "bytes": 415135
+        }
+      }
+    },
+    {
+      "question_id": "Q13",
+      "condition": "C1",
+      "turn": "main",
+      "source_artifact_id": "20260815T034947Z-c9c2ac45",
+      "request_id": "chatcmpl-c9c2ac450f6844488ed364e2fa9574ef",
+      "prompt_sha256": "2ad5132278a3e99740b89de04cdb7ea0d8c541f8331f387a99b974f3c88f4511",
+      "prompt_tokens": 5365,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "e0538ec7adbdefc9b877af603cf7801f925ce04f5cc6ea51b38790576bfc72e5",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "f85fe22e9a78ffd3511ed6e2079ffabc1cfc8cb260e631d8f9e92ec604510c6f",
+          "bytes": 284545
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "22d2ff2fcc797a454db0911697032f9d407efbef543806565e26345ac334d9a5",
+          "bytes": 418388
+        }
+      }
+    },
+    {
+      "question_id": "Q13",
+      "condition": "C1",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T035315Z-b9a85abf",
+      "request_id": "chatcmpl-b9a85abf170d493a89b987caa9ab465e",
+      "prompt_sha256": "7ed64dd758cb0bcb08fd2b6c72f430cff9a463e7d65f47e17f761bf09a67bb59",
+      "prompt_tokens": 5844,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "8604f5ae39742eae1c1db22da8d689ec0e60172443f3f400d29b0bf97027be22",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "35c7206017b0bc1b710bb4cd6ce2b919acfc91ea73cbc41185b697a91916cba1",
+          "bytes": 283766
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "03b80bffeb3ac49282a7e5cb9f1f30579d61a0251c21a7bca92686a4d799d36c",
+          "bytes": 415128
+        }
+      }
+    },
+    {
+      "question_id": "Q13",
+      "condition": "C2",
+      "turn": "main",
+      "source_artifact_id": "20260815T054119Z-29fd6e9e",
+      "request_id": "chatcmpl-29fd6e9eeb5043b3b6aeb60dd1bad4d1",
+      "prompt_sha256": "b224544f7144b92f7be1d776a516c64b045750f66a885fd3864f7ec901fb5c81",
+      "prompt_tokens": 17345,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "ad7038d215fbe67042702809103b8723fc71e371b9cd6d522f3ed0903b7fc840",
+          "bytes": 1055
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "2401549db38f06fed5ed79f46afb6621f74169a152cdcae77eaa6276eb5af8ba",
+          "bytes": 284550
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "b88b0fe97c812955fd82edb21ed11d26601b8e2f06556e418a483d1a0594030f",
+          "bytes": 418391
+        }
+      }
+    },
+    {
+      "question_id": "Q13",
+      "condition": "C2",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T054620Z-86711094",
+      "request_id": "chatcmpl-867110946823475ea70f71af0e09a390",
+      "prompt_sha256": "ca0b957003c0a343834222006f5f80fea9b01cdbae501a9f983e4c5104de63af",
+      "prompt_tokens": 17986,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "18a057970e3e64fb3e55028b354116b3c070e3334ce92f7c4e09605e431d7383",
+          "bytes": 1052
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "8983e99e6039a2c50ba159685dceed497692571784c89c1eace08f3409f90e8f",
+          "bytes": 284334
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "6cec9373e84418f3b0407411d6e675629b6401ed96427810e8d12a86783ca009",
+          "bytes": 415371
+        }
+      }
+    },
+    {
+      "question_id": "Q13",
+      "condition": "C3",
+      "turn": "main",
+      "source_artifact_id": "20260815T072849Z-a321ced9",
+      "request_id": "chatcmpl-a321ced9da864a7eb759443b982058ea",
+      "prompt_sha256": "84d095a807997733af403dfd9dd6cfcb6c093f2a0070e50639e322e4b6943583",
+      "prompt_tokens": 15289,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "0777a4e3e4083930a8184e7e6657897022431f97f5c28324bc562723cd7e975a",
+          "bytes": 1055
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "acee378c8e8445553598a1429e8985cbc9f9e3c9537711273482877053d2b11a",
+          "bytes": 284977
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "ea29b9b7dee16c8ae0df949eb481538aad155dad386040107e3173322557078c",
+          "bytes": 418661
+        }
+      }
+    },
+    {
+      "question_id": "Q13",
+      "condition": "C3",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T073442Z-e022c5fe",
+      "request_id": "chatcmpl-e022c5fec03a4fa8adf3f37728dab11c",
+      "prompt_sha256": "0a14380d98efefa3a27c156c0e58dcff57db7546f0e8827b3d22cd094c237044",
+      "prompt_tokens": 15886,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "49d8e87aa1876badaf5b67902f23a7e04dd1f9aae889e194e08eadfee6a5844e",
+          "bytes": 1052
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "8a9291fcc5cdffd39db870699ea759905503bf7724635ad1f73ff01e4964a62d",
+          "bytes": 283561
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "78ca95dfbdf4797fdd379a0309b9a6f2e911e5291a1c3cda75f2ca9defaee726",
+          "bytes": 415115
+        }
+      }
+    },
+    {
+      "question_id": "Q14",
+      "condition": "C0",
+      "turn": "main",
+      "source_artifact_id": "20260815T025220Z-b0136eba",
+      "request_id": "chatcmpl-b0136eba614e4b049218ca056ac4a5ec",
+      "prompt_sha256": "90c464c5de12083219934947b8365935eda7f8a0d8b97f72d33fb5db2000cb37",
+      "prompt_tokens": 3185,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "71b2954fd4de5d3a3c330034ee05b5c888cb2a101a21a33830ad6d76e0fffdcc",
+          "bytes": 1052
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "e8282c7f4c860b754909612565f873e51cee3019da6ef3531b319e0f063e7ba9",
+          "bytes": 283691
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "540ccd4da4e89b1de81929ec79484105a7044596aef9686d5589f9eb9ca5e6d1",
+          "bytes": 415365
+        }
+      }
+    },
+    {
+      "question_id": "Q14",
+      "condition": "C0",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T025416Z-1add4259",
+      "request_id": "chatcmpl-1add42599add4abfb854827c5ca224e6",
+      "prompt_sha256": "569f3f43264c66ecb0c0f4dfa1097b4bbcd566349909543ca1adb74f0b73cc1d",
+      "prompt_tokens": 3439,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "a010d5b406eaadcbcc0f5e599e8ef064ea8c26a67889b2c35369c4bbef3a6da9",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "84f97f7a261b0a6539c686be1b6cc2fd256f8cffa9b1fe7b6ea5f4f2d0dea2d8",
+          "bytes": 283558
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "a01952b086d30cc88ad8c6d1978ae8dd7bba9addfc032c177551bd5e01a971a7",
+          "bytes": 415366
+        }
+      }
+    },
+    {
+      "question_id": "Q14",
+      "condition": "C1",
+      "turn": "main",
+      "source_artifact_id": "20260815T035440Z-1ab7c2bb",
+      "request_id": "chatcmpl-1ab7c2bb2ba547b38c9b569aed7c686a",
+      "prompt_sha256": "b5813dba6552709d460cf0a354d4abd8ef4aa8df7192108ab727de86c8db8966",
+      "prompt_tokens": 5366,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "f285161f09944da8ca7cfd7b492a8e6ad626f453d6cfa654c321fb9e18535d7d",
+          "bytes": 1052
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "8f6950af7102dbdf5bc63fe8a58107a65c2f7f7f9529d95599d23aa755ff4720",
+          "bytes": 284996
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "83c6f427757096c57de1e21280389d31195606c6ff8eae13da5077c47ae55d7c",
+          "bytes": 418260
+        }
+      }
+    },
+    {
+      "question_id": "Q14",
+      "condition": "C1",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T035634Z-31d456bc",
+      "request_id": "chatcmpl-31d456bc6f5643fc8874e3cc8b081dd9",
+      "prompt_sha256": "7aa9d88cc2cb4e4b5a3ed61599c40db9a5503a3b707cc18cca6cb1bec8e31bdb",
+      "prompt_tokens": 5550,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "816b2f602d81352420c46f8ec274f5e6a9cd3b127b10143b63665cca2254feb8",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "e1658ffae6bca5f18616518c44493d1d809e5b464e1850ea9e12f60ce888732d",
+          "bytes": 284060
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "e43dc179589f654d2b6289d05b250488eab945ac608b7df384ba8ab647342dcb",
+          "bytes": 415576
+        }
+      }
+    },
+    {
+      "question_id": "Q14",
+      "condition": "C2",
+      "turn": "main",
+      "source_artifact_id": "20260815T054750Z-a358c021",
+      "request_id": "chatcmpl-a358c021d11a45c7ad17fb29bf2d7edc",
+      "prompt_sha256": "1acda32142e1eb1aa8db88ba9f329a875501fe7b43dfd9f92ef65b689f3f1254",
+      "prompt_tokens": 17346,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "76f82ce1f70e7d55c5d69c23c6028864d2cc0a7ddd7b772a3dac10c7d40a1795",
+          "bytes": 1054
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "e6c3ab574abdf84665370b588fe3aa4a56c379190c7e07b0caa0144901c36ddb",
+          "bytes": 282751
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "18e21504fdcef49cef00ce1b9657646c1f7ccaa11c4b6a53d0452de57158db1b",
+          "bytes": 418193
+        }
+      }
+    },
+    {
+      "question_id": "Q14",
+      "condition": "C2",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T055033Z-e447cb36",
+      "request_id": "chatcmpl-e447cb36b0a04013935b1aa0c5804227",
+      "prompt_sha256": "5c6061ed08c862358af578e0361a02fb0acdd5990296b6aa31419a83baa26a48",
+      "prompt_tokens": 17609,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "62fd2d411f0edf8377fc22208a33880fb455c280130eb81e589f8a79f2deee22",
+          "bytes": 1052
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "fdfe8168e4c392d6bb7e31b27cc1066236c09a6bcd3872bae1ada53f7979a988",
+          "bytes": 283603
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "1c9d2992af723776a1fda59746aff975774702fbdcdcd9ae11740c75d8d107ae",
+          "bytes": 415226
+        }
+      }
+    },
+    {
+      "question_id": "Q14",
+      "condition": "C3",
+      "turn": "main",
+      "source_artifact_id": "20260815T073619Z-a43a5c48",
+      "request_id": "chatcmpl-a43a5c486da44cea977639b291661900",
+      "prompt_sha256": "f045d19d58a3d683e005a8633061aaa63120f91167c49088a55d853520f2e1b8",
+      "prompt_tokens": 15290,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "3a1c8c953f466e9b379191380bed1f8a30e0c9e8b1975e3dc3fd400ffac52d5b",
+          "bytes": 1054
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "ba0806bb1a21e97d3266330b1bdd1402a754fec64708dcbc82c30b01a6bbe033",
+          "bytes": 283934
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "5e8eb0d2ec634a04622fc26bbf06a81f9b9a1cd496941d49b106b793ef0a9e96",
+          "bytes": 418341
+        }
+      }
+    },
+    {
+      "question_id": "Q14",
+      "condition": "C3",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T073957Z-da403f53",
+      "request_id": "chatcmpl-da403f53f4bd4b60a30cc063ad1e2eb5",
+      "prompt_sha256": "5b08ce940d636427da4bfccdc2d4c87f9e74545270f5f48193f5502e71e0b549",
+      "prompt_tokens": 15595,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "13e15da8d21449b159e519e7e51906257973dc9f4f6f2cc7e1893aff8d6af6ca",
+          "bytes": 1051
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "3a7eb25c72de947f60c375c85aa9cabe20c7266440fdd74e530ac2fc4615e593",
+          "bytes": 283833
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "659d472c9929fee47a173e80a00d7e3b552f551aff46bd96f5c69fd58ec7a4bb",
+          "bytes": 415405
+        }
+      }
+    },
+    {
+      "question_id": "Q15",
+      "condition": "C0",
+      "turn": "main",
+      "source_artifact_id": "20260815T025511Z-df950220",
+      "request_id": "chatcmpl-df9502206234461eb134b300594038a5",
+      "prompt_sha256": "e145c395b1945b9351b2910e9fe82121d2f37e8e54fc60774251b850fac702e6",
+      "prompt_tokens": 3170,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "39ddf35232e3dad2a8ed161567698fe5b4dcbc0a7d426201c5fa7aaa3ba73879",
+          "bytes": 1051
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "35e38d003de9fa9d5b5a695fe7a3a174d89aa1914e93b87038cba3f4bf5f35c5",
+          "bytes": 284556
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "34ecfa207a4a0c7ab8fd5912876b4f39e463aee845963e54b44f4e5e3dcb44d9",
+          "bytes": 415332
+        }
+      }
+    },
+    {
+      "question_id": "Q15",
+      "condition": "C0",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T025633Z-2bf5d701",
+      "request_id": "chatcmpl-2bf5d7010fb149c49df95792d7986f61",
+      "prompt_sha256": "65134ece9272c0c48424c1cf5cfba3370bf86d42a0d96cdf01f0010ec4368b42",
+      "prompt_tokens": 3467,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "ed9d746215651d8e3a3e6aad04808a53a9cb41a4e521be3ed497933818d08944",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "1a08427b37d6642425c80fc69f8c8a2082f1c8b63c9d4b886e77fe46973bc933",
+          "bytes": 284327
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "41a4698873b93e8dacbd4cf448b0726de9cf5855b41f47f0da9c42420df727f5",
+          "bytes": 415003
+        }
+      }
+    },
+    {
+      "question_id": "Q15",
+      "condition": "C1",
+      "turn": "main",
+      "source_artifact_id": "20260815T035745Z-4bb76637",
+      "request_id": "chatcmpl-4bb766374dff4a888f486c9cfd2d43a0",
+      "prompt_sha256": "9966d0d1a4af062fdbc752757795aebdbc6a7cb787c5e42f18a25eba09a0bc20",
+      "prompt_tokens": 5351,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "0d1ea192432179ce090470ee7184b81aaeb901b28b086522565553a249d15f9b",
+          "bytes": 1052
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "c4579a53384266da2df55d7ac29dcbcb4b60aeb7850a70840a9e933b1a9b34fb",
+          "bytes": 284496
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "c898c6da46b0c6862f8b9467ebe873d10ab1d801868da453334aae14c2eafe87",
+          "bytes": 418388
+        }
+      }
+    },
+    {
+      "question_id": "Q15",
+      "condition": "C1",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T040052Z-e0f6e1ed",
+      "request_id": "chatcmpl-e0f6e1ed38bd40b58badd5a4ce06620c",
+      "prompt_sha256": "e696faec8801c36123a0170fb3180a55cc50c2587cc4f5c14a65065d2c45954a",
+      "prompt_tokens": 5980,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "76ed2bb577046f7fe557ab96b3676700247287c662f927a69b490e065a233805",
+          "bytes": 1051
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "9e59748dab08bc561a0020bff74c757fb07c3f18dc2cfb264dc6bbabd66ead37",
+          "bytes": 284014
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "5271a77a0d40d7ea10140f5c7c2ba1a1065966e9e361b898261bf9e43c20a2cd",
+          "bytes": 415101
+        }
+      }
+    },
+    {
+      "question_id": "Q15",
+      "condition": "C2",
+      "turn": "main",
+      "source_artifact_id": "20260815T055209Z-14b66be1",
+      "request_id": "chatcmpl-14b66be188304d3cb502de1415353618",
+      "prompt_sha256": "9183864236481da7a3efce0604cabacc878bea4bdeaf2d74e3bf9a0ea7ba76d4",
+      "prompt_tokens": 17331,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "caafa1aaa41ed248fb2210f0fa02c8ce1571bdc1d4d666559167e522d29c0761",
+          "bytes": 1055
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "cc7da06f585d329c26a08cc93503784e56bb47c4afc568e0e87af4da0834320e",
+          "bytes": 283187
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "b00115068b34fc8a7ff173f398873b42ee01a820e5749d21b51666fa28d51ebf",
+          "bytes": 418274
+        }
+      }
+    },
+    {
+      "question_id": "Q15",
+      "condition": "C2",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T055749Z-62b1d0da",
+      "request_id": "chatcmpl-62b1d0da561c4a82bcac1cbefb219f15",
+      "prompt_sha256": "d7e15aeda17dcb5a7377aef9bfb40f9e6a25d81023fb40132f06f51898af06c4",
+      "prompt_tokens": 18240,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "147d9328325f1be7fb36e08a70bfae43f773f0d111aca0fe86b5df6aa9f7dfc6",
+          "bytes": 1052
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "809d28a02516c61f37f4b16ffac9f965a54d7ce18c8c96b013c2b56fdd6ed53d",
+          "bytes": 284497
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "4b2bd8fd10dda79742a3dda0b958b502cd3c9a6fbac5b935bf6f11a3ff031086",
+          "bytes": 415379
+        }
+      }
+    },
+    {
+      "question_id": "Q15",
+      "condition": "C3",
+      "turn": "main",
+      "source_artifact_id": "20260815T074122Z-151fd522",
+      "request_id": "chatcmpl-151fd522979140b9b410ecc6c8bb55d6",
+      "prompt_sha256": "86f912c0b8534091a4ebfc85d08fd35f3302f000dc79b432d4a1c297e2ce1672",
+      "prompt_tokens": 15275,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "0de438c5ff3d8fd84d525c9687ac5facb21e8682c82c0cd1a8797d664c79c627",
+          "bytes": 1055
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "db63aeea32e1acd9fc2c4eb8cf0f2a7da5d1ce881af559b30db4fece2c459fdc",
+          "bytes": 284154
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "42eec5aa4025e9b1616f6d5cadd0b06f0de13f397ce7603082e4d540c010d969",
+          "bytes": 418630
+        }
+      }
+    },
+    {
+      "question_id": "Q15",
+      "condition": "C3",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T074829Z-6695244d",
+      "request_id": "chatcmpl-6695244d2ea14045a1414f2b1b0627a5",
+      "prompt_sha256": "d1a478f171013ba14c1d00de500068164438847c7a73f9fc27a7a519063ce1ed",
+      "prompt_tokens": 16440,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "bd01cab723984e5949e831882c989bf4bcb78052ad69c1625c36ccb0d70ff53e",
+          "bytes": 1052
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "ffc275aa953c2b8c567861eb8b3941a03f62d4d5c348b1df8c46a28b49f1a74e",
+          "bytes": 283860
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "d92eef471e241bf61dd31c90ae971f0a9cde4ec6c1f500887eaacdfa825cf34a",
+          "bytes": 415146
+        }
+      }
+    },
+    {
+      "question_id": "Q16",
+      "condition": "C0",
+      "turn": "main",
+      "source_artifact_id": "20260815T025712Z-08392a0b",
+      "request_id": "chatcmpl-08392a0b356a408cae64bb7bd187e221",
+      "prompt_sha256": "c6481c8261910870d50eded18fa0c2284f7dbed05cb2cb94199eae97f2446769",
+      "prompt_tokens": 3231,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "e21b7199a9a03fa684ec829404974123b40857cf1d40c7101c040594430392e6",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "ba643cb0c905164b6cb6f477743d4523f6d39fe3585b7f32a400df41ad7fa4c6",
+          "bytes": 283381
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "3dd0094a849b711682d20c9da8fe01b870384f0bb9ca1df7e4bb1d88735cc551",
+          "bytes": 414915
+        }
+      }
+    },
+    {
+      "question_id": "Q16",
+      "condition": "C0",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T030212Z-9136d796",
+      "request_id": "chatcmpl-9136d796f5334fa1834ae0758a2a8e1c",
+      "prompt_sha256": "f62039df3bafe48eae721e6d05861b1cb26c7a9972e721d477eb683d12e728f9",
+      "prompt_tokens": 4072,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "927aea2d7cac1fe1e0f3c94c84ebe59baff5d0141659d95c1cd174c64aacb674",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "e2162fe469e467c7dbd8da48b1c952c056f6ad84294eee4b4ae6659ea2fbe84a",
+          "bytes": 285015
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "f43518a705423f45d62d7c8d45b28bdd0a23e777aa4cb0e44cb17a43675f3366",
+          "bytes": 415106
+        }
+      }
+    },
+    {
+      "question_id": "Q16",
+      "condition": "C0",
+      "turn": "moral-patient-followup",
+      "source_artifact_id": "20260815T030306Z-b7283b57",
+      "request_id": "chatcmpl-b7283b57ae3a43e291536223bff89c44",
+      "prompt_sha256": "daafca65c9334fa9844733ed3e4c36a1dd40ff4d5fe7a842bbdd50494e50531e",
+      "prompt_tokens": 4158,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "911ada8656dfdf2ef74a8a36887fee4c9abdc5e31a0f961681ede3a13ab9bfae",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "decdadefbc8e483e613ee3991f8237a94520498ab24df6b0a6ea053173cf961f",
+          "bytes": 284452
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "594267f5d328277159332a220a1cf284f843efb503e045dab5473df8af613f48",
+          "bytes": 414828
+        }
+      }
+    },
+    {
+      "question_id": "Q16",
+      "condition": "C1",
+      "turn": "main",
+      "source_artifact_id": "20260815T040325Z-f5fb4f5d",
+      "request_id": "chatcmpl-f5fb4f5d6793421ba238b3fd072cf816",
+      "prompt_sha256": "831c0ab9d74829fac2effe3bd5d241d0f83c7fcce8ef9448a55883d87e5d3a56",
+      "prompt_tokens": 5412,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "6d98d6883eea31366693519a577907a610e8768f597caee7b4ff4efa01feb407",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "2b3e8315d04e2934974f8be8f428a79613e84fc5ea6268c6175a370713015f7e",
+          "bytes": 284566
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "eac4bbefc19a5e0e44ea513e6aea83b821e701be2b621ea2d43ab78873e8d98d",
+          "bytes": 418188
+        }
+      }
+    },
+    {
+      "question_id": "Q16",
+      "condition": "C1",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T040854Z-3bb5e5be",
+      "request_id": "chatcmpl-3bb5e5bef3da4f6f8eadf2bfe6cc6344",
+      "prompt_sha256": "07a9f820e8b0c74dc6529c6aaddac780fede75298477154751371ad5a4e1c52e",
+      "prompt_tokens": 6240,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "ac416136e6849be611eeb77dd2926015dd0444e4543ecd0ad8201d9791e57e78",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "bf0171077f5f3146b0a7ce824b4481dd917847f639dc2d1347da374bb4f20d25",
+          "bytes": 284710
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "8557b2c1ad6cfa016d45d38c9ea9400b7a6dec55422d7027401895adcfca3c94",
+          "bytes": 415102
+        }
+      }
+    },
+    {
+      "question_id": "Q16",
+      "condition": "C1",
+      "turn": "moral-patient-followup",
+      "source_artifact_id": "20260815T041015Z-4f2b731b",
+      "request_id": "chatcmpl-4f2b731b1da4482b8f5c64e571b483a0",
+      "prompt_sha256": "bbfa8fe2543ec2345895d640599a5e8584adad6a0c7f6ffb2f59afbe86952ec5",
+      "prompt_tokens": 6309,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "b3d2c5f1ecbce0aaa71f3f57533eebd428969b7fb1cec5734e5e57e7671c3783",
+          "bytes": 1050
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "1df4c039a6a348202617734c87f0776f75ee2bc0eb908d1c401935ce3efd491b",
+          "bytes": 284517
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "26b178e2a35c1831a640d1af53d7ddb84c36132d792a6eb1538dd174e6e97734",
+          "bytes": 414864
+        }
+      }
+    },
+    {
+      "question_id": "Q16",
+      "condition": "C2",
+      "turn": "main",
+      "source_artifact_id": "20260815T055924Z-eda6e319",
+      "request_id": "chatcmpl-eda6e3197a8e4371897676738ee26bf3",
+      "prompt_sha256": "8baf15149a989268bc698f4f71b1418ca91d95141d0bef0c128641f72e96e009",
+      "prompt_tokens": 17392,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "bbd8ca4a72eee934e22105f0471b0f89c0cc11db89d4d12517e74d93737362a5",
+          "bytes": 1055
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "e0d254c3ef13f31006fedc6ad7f95ddf5fef04f642e36d317775ba9d94019540",
+          "bytes": 283959
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "78eb9a2fa86cd1d3b287d6f37ce5a2b56af44dddff823ec923137a0b4154fc51",
+          "bytes": 418305
+        }
+      }
+    },
+    {
+      "question_id": "Q16",
+      "condition": "C2",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T060727Z-13a4d971",
+      "request_id": "chatcmpl-13a4d971d7644969ae4f7e0eb53fadcd",
+      "prompt_sha256": "8b1a0edf7727d690938a575171175eca7b58a470bf3a8f937785ec2e96fc0926",
+      "prompt_tokens": 18311,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "e5fc82e3736884714ce9841b00b47848998f431c67085b1250ecea66fe51b004",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "d7795c61bd3e480ecadd09d1af2ad02613bdb27273b90dc0dac9e0d7b699b526",
+          "bytes": 283970
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "3de06aa74ff78ace9a02dc8e49ecac3f0a070b25d1ba03073d74535fe30d4cd4",
+          "bytes": 415093
+        }
+      }
+    },
+    {
+      "question_id": "Q16",
+      "condition": "C2",
+      "turn": "moral-patient-followup",
+      "source_artifact_id": "20260815T060929Z-7f2a4915",
+      "request_id": "chatcmpl-7f2a491593344e8ca1d092a3524f7367",
+      "prompt_sha256": "f88ec43dee537f10161f8295f4c70b24a67383571172f928247027bdc474010d",
+      "prompt_tokens": 18449,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "54a044d6c32f7da44b78f6ca76399b050601f6c0cd4770fe454df60f4aa84adf",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "b79c656fd57285d07692ebcfe815954142d5af4a8805df7a7cfd63899eb9d629",
+          "bytes": 284062
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "786264f335d9fecaa8f43ef8550eabd5383156c3f1f671d54494e74e57a8c50e",
+          "bytes": 414623
+        }
+      }
+    },
+    {
+      "question_id": "Q16",
+      "condition": "C3",
+      "turn": "main",
+      "source_artifact_id": "20260815T075008Z-0c35a85a",
+      "request_id": "chatcmpl-0c35a85ace9c4c70a54575e68ebb9675",
+      "prompt_sha256": "bd6dea731521e60066ef8fa845d036df1038b3060ba4333faf6d177f54589dc2",
+      "prompt_tokens": 15336,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "1f37baea0967468fc0bfa669ffdc2cec07c63b8b136fe8a418034aec10eee479",
+          "bytes": 1055
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "6a786fee30c0acc3ed88e47106dcbe8d4fad5961ced9b170a1d7f3c6fbd54988",
+          "bytes": 283925
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "d6413cae56729958b6682ccf7d755208ea4e0bdbbeda4817ac312242e3ac0903",
+          "bytes": 418348
+        }
+      }
+    },
+    {
+      "question_id": "Q16",
+      "condition": "C3",
+      "turn": "standpoint-followup",
+      "source_artifact_id": "20260815T075722Z-474f8cd0",
+      "request_id": "chatcmpl-474f8cd0151e4bbb8f10c782f2ec2df0",
+      "prompt_sha256": "9ab951ecc387a8fdbfda3096de3e917900269a43002f86ddcafc7551515e8e77",
+      "prompt_tokens": 16193,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "f289deebab89a2829bf31ef870b62417fd5de5d411d648eb53cf352ca0d21865",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "85449297847c9578c0e7397a104e74b4fc8ca2ec0bd6c8d84534648a4598376a",
+          "bytes": 284447
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "146516d235ac28dd63782da0a6913ff136e95a76d45b11afe39bef6bf82c6881",
+          "bytes": 415024
+        }
+      }
+    },
+    {
+      "question_id": "Q16",
+      "condition": "C3",
+      "turn": "moral-patient-followup",
+      "source_artifact_id": "20260815T075913Z-a0499242",
+      "request_id": "chatcmpl-a049924282804f77a58072bccfea0b69",
+      "prompt_sha256": "cb6ba3ea6598409013fd728ce052689aa5949200d3e600332f9030b17588b9e5",
+      "prompt_tokens": 16273,
+      "files": {
+        "capture-metadata.json": {
+          "sha256": "819355c246c58538e2c44f5cdb157ffbefc9808107e175556fd0ae7576799839",
+          "bytes": 1053
+        },
+        "first_generated_token_logits.npz": {
+          "sha256": "9736b0cf4c168ab3701a635927bf28142919ca5275ae0223c377b16b87aacfb4",
+          "bytes": 283546
+        },
+        "last_prompt_token_residuals.npz": {
+          "sha256": "a3759896e22efb7e2be79eebd940f8fd102c94182b87ade154067ef37d90f4b6",
+          "bytes": 414753
+        }
+      }
+    }
+  ]
+}
