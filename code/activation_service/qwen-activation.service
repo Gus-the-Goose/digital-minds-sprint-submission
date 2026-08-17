@@ -1,0 +1,16 @@
+[Unit]
+Description=Digital Minds Qwen activation-capture service
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/digital-minds/activation-service
+ExecStart=%h/digital-minds/.venv/bin/python -m uvicorn qwen36_activation_server:app --host 127.0.0.1 --port 8906
+Restart=on-failure
+RestartSec=10
+TimeoutStartSec=1800
+Environment=HF_HUB_OFFLINE=1
+Environment=TRANSFORMERS_OFFLINE=1
+
+[Install]
+WantedBy=default.target
