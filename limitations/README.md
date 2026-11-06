@@ -23,7 +23,7 @@ only conditions and the continuity-rich conditions.
 
 *The public worksheets and raw export are anonymised derivatives. Redaction may remove context relevant to some qualitative interpretations.
 
-*On a personal note, this is the author's first attempt at conducting academic research or producing academic writing. The concept and interpretive decisions are mine. I selected the research question and conditions, decided on the manually reviewed the outputs, and arrived at the conclusions myself. I did use LLM assistance from Victor and Codex to help develop runner code, organise artifacts,  format report, and edit draft prose. I aspire to correct this shortcoming as soon as possible, and apologise. 
+*On a personal note, this is the author's first attempt at conducting academic research or producing academic writing. The concept and interpretive decisions are mine. I selected the research question and conditions, decided on the manually reviewed the outputs, and arrived at the conclusions myself. I did use LLM assistance from Codex to help develop runner code, organise artifacts,  format report, and edit draft prose. I aspire to correct this shortcoming as soon as possible, and apologise. 
 
 
 
